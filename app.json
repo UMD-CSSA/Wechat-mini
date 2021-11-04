@@ -1,0 +1,45 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/activities/activities",
+    "pages/shortcuts/shortcuts",
+    "pages/join_us/join_us",
+    "pages/home/新生手册",
+    "pages/home/CSSA构成/CSSA构成"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#E03A3E",
+    "navigationBarTitleText": "UMD CSSA",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+
+  "tabBar":{
+    "color": "#e6e6e6",
+    "selectedColor": "#E03A3E",
+    "backgroundColor": "#2c2c2c",
+    "list": [
+      { "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "images/home_default.png",
+        "selectedIconPath": "images/home_selected.png"},
+      { "pagePath": "pages/activities/activities",
+        "text": "活动",
+        "iconPath": "images/activities_default.png",
+        "selectedIconPath": "images/activities_selected.png"},
+      { "pagePath": "pages/shortcuts/shortcuts",
+        "text": "校园相关",
+        "iconPath": "images/shortcuts_default.png",
+        "selectedIconPath": "images/shortcuts_selected.png"},
+      { "pagePath": "pages/join_us/join_us",
+        "text": "加入我们",
+        "iconPath": "images/join_us_default.png",
+        "selectedIconPath": "images/join_us_selected.png"}
+    ]
+  }
+}
+
+
+

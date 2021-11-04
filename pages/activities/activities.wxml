@@ -1,0 +1,24 @@
+<!--pages/activities/activities.wxml-->
+<view class="btn-area">
+  <view>
+    <button style="width: 90%; " class="title">活动预告</button>
+  </view>
+</view>
+
+<view class="contents">
+  <view class="upcoming_events">
+  </view>
+</view>
+
+
+<view class="btn-area">
+  <view class="upcoming">
+    <button style="width: 90%;" class="title">活动回顾</button>
+  </view>
+</view>
+
+<view class="contents">
+  <view class="passed_events">
+  </view>
+</view>
+

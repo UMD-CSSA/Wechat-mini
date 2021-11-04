@@ -1,0 +1,43 @@
+/**index.wxss**/
+.buttons {
+  margin-left: 60rpx; 
+  margin-right: 60rpx;
+  margin-top: 30rpx;
+  margin-bottom: 300rpx;
+}
+.buttons .button {
+  background-color: #FFD520;
+  padding-left: 12rpx;
+  padding-right: 12rpx;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+}
+
+.buttons .buttonImg {
+  padding: 8rpx;
+  height: 40rpx;
+  width: 40rpx;
+  vertical-align: middle;
+}
+.buttons .buttonText {
+  padding: 8rpx;
+  height: 40rpx;
+  vertical-align: middle;
+}
+
+.swiper-container{
+  position: relative;
+  margin-left: 60rpx; 
+  margin-right: 60rpx;
+ }
+
+ .swiper-container .swiper{
+  height: 300rpx;
+ }
+ .swiper-container .swiper .img{
+  width: 100%;
+  height: 100%;
+ }
+

@@ -1,0 +1,16 @@
+/* pages/activities/activities.wxss */
+.btn-area {
+  margin-top: 10%;
+}
+
+.upcoming {
+  margin-top: 5%;
+  position: relative;
+}
+
+
+.title {
+  background-color: cornsilk;
+  text-align: left;
+  color: black;
+}
