@@ -1,4 +1,20 @@
 /**index.wxss**/
+.announcement .announce_img {
+  padding: 5rpx;
+  height: 40rpx;
+  width: 40rpx;
+  vertical-align: middle;
+  position: relative;
+  float: left;
+}
+
+.announcement .news {
+  font-size: small;
+  text-decoration: underline;
+  color:dimgray;
+  float: left;
+  padding: 8rpx;
+}
 .buttons {
   margin-left: 60rpx; 
   margin-right: 60rpx;

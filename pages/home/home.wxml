@@ -1,8 +1,20 @@
-<view>
-  <image 
-    src="../../images/封面.png" 
-    style="width: 90%; float: center"></image>
+<view class="announcement">
+  <button style="background-color:moccasin; width: 100%; height: 50rpx; padding: 0;">
+    <image src="/pages/home/images/通知.png" class="announce_img"></image>
+    <text bindtap="news" class="news">提醒在美中国公民和机构注意美社会治安和反恐形势</text>
+  </button>
 </view>
+
+<view class="swiper-container" style="margin: 10%;">
+ <swiper autoplay="auto" interval="3000" duration="500" current="{{swiperCurrent}}" bindchange="swiperChange" class="swiper" indicator-dots="true">
+  <block wx:for="{{slider}}" wx:key="unique">
+   <swiper-item>
+    <image src="{{ item.img }}" class="img" mode="aspectFill"></image>
+   </swiper-item>
+  </block>
+ </swiper>
+</view>
+
 <view class='buttons'>
     <button class='button' style="width: 48%; float: left" bindtap="manual">
       <image class='buttonImg' src="../../images/新生手册.png"></image>
@@ -22,12 +34,3 @@
     </button>
 </view>
 
-<view class="swiper-container">
- <swiper autoplay="auto" interval="3000" duration="500" current="{{swiperCurrent}}" bindchange="swiperChange" class="swiper" indicator-dots="true">
-  <block wx:for="{{slider}}" wx:key="unique">
-   <swiper-item>
-    <image src="{{ item.img }}" class="img" mode="aspectFill"></image>
-   </swiper-item>
-  </block>
- </swiper>
-</view>

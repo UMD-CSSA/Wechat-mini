@@ -1,4 +1,10 @@
 Page({
+  news(){
+    wx.navigateTo({
+      url: '重要通知',
+    })
+  }, 
+  
   manual(){
     wx.navigateTo({
       url: '新生手册',
