@@ -5,7 +5,7 @@
   </button>
 </view>
 
-<view class="swiper-container" style="margin: 10%;">
+<view class="swiper-container" style="margin: 6%;">
  <swiper autoplay="auto" interval="3000" duration="500" current="{{swiperCurrent}}" bindchange="swiperChange" class="swiper" indicator-dots="true">
   <block wx:for="{{slider}}" wx:key="unique">
    <swiper-item>
@@ -16,19 +16,19 @@
 </view>
 
 <view class='buttons'>
-    <button class='button' style="width: 48%; float: left" bindtap="manual">
+    <button class='button' style="width: 48%; height: 50%; float: left" bindtap="manual">
       <image class='buttonImg' src="../../images/新生手册.png"></image>
       <text class="buttonText">新生系列</text>
     </button>
-    <button class='button' style="width: 48%; float: right">
+    <button class='button' style="width: 48%; height: 50%; float: right">
       <image class='buttonImg' src="../../images/红龟卡.png"></image>
       <text class="buttonText">红龟卡</text>
     </button>
-    <button class='button' style="width: 48%; float: left" bindtap="renting">
+    <button class='button' style="width: 48%; height: 50%; float: left" bindtap="renting">
       <image class='buttonImg' src="../../images/周边租房.png"></image>
       <text class="buttonText">周边租房</text>
     </button>
-    <button class='button' style="width: 48%; float: right" bindtap="cssa">
+    <button class='button' style="width: 48%; height: 50%; float: right" bindtap="cssa">
       <image class='buttonImg' src="../../images/CSSA构成.png"></image>
       <text class="buttonText">CSSA构成</text>
     </button>
