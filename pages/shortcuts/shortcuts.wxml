@@ -1,2 +1,23 @@
 <!--pages/shortcuts/shortcuts.wxml-->
-<text>pages/shortcuts/shortcuts.wxml</text>
+<text style="display: flex; justify-content: center; padding-top: 30px; font-size: x-large">Title</text>
+
+<view class="container" style="width: 100%; justify-content: center">
+    <view class="page-body" style="width: 100%; box-sizing: border-box">
+        <view class="flex-wrp" style="flex-direction: column; display: flex">
+            <button bindtap="b1Click" style="width: 80%; justify-content: center; margin-bottom: 10px">Button 1</button>
+            <view hidden="{{b1Hidden}}" style="justify-content: center; margin-bottom: 30px">
+                <view class="flex-wrp" style="width: 100%; flex-direction: column; display: flex; justify-content: center">
+                    <button style="width: 75%; justify-content: center; margin-bottom: 5px">b1.1</button>
+                    <button style="width: 75%; justify-content: center; margin-bottom: 5px">b1.2</button>
+                </view>
+            </view>
+            <button bindtap="b2Click" style="width: 80%; justify-content: center; margin-bottom: 10px">Button 2</button>
+            <view hidden="{{b2Hidden}}" style="justify-content: center; margin-bottom: 30px">
+                <view class="flex-wrp" style="width: 100%; flex-direction: column; display: flex; justify-content: center">
+                    <button style="width: 75%; justify-content: center; margin-bottom: 5px">b2.1</button>
+                    <button style="width: 75%; justify-content: center; margin-bottom: 5px">b2.2</button>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
