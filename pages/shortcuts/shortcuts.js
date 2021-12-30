@@ -1,7 +1,8 @@
 Page({
     data:{
         b1Hidden: true,
-        b2Hidden: true
+        b2Hidden: true,
+        b3Hidden: true
     },
     b1Click: function(event) {
         // console.log(this.data.b1Hidden)
@@ -16,5 +17,12 @@ Page({
             b2Hidden: (!this.data.b2Hidden)
         })
         // console.log(this.data.b2Hidden)
+    },
+    b3Click: function(event) {
+        // console.log(this.data.b3Hidden)
+        this.setData({
+            b3Hidden: (!this.data.b3Hidden)
+        })
+        // console.log(this.data.b3Hidden)
     }
 });

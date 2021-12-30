@@ -1,21 +1,34 @@
-<!--pages/shortcuts/shortcuts.wxml-->
-<text style="display: flex; justify-content: center; padding-top: 30px; font-size: x-large">Title</text>
-
+<!--pages/shortcuts/校园相关.wxml-->
 <view class="container" style="width: 100%; justify-content: center">
     <view class="page-body" style="width: 100%; box-sizing: border-box">
         <view class="flex-wrp" style="flex-direction: column; display: flex">
-            <button bindtap="b1Click" style="width: 80%; justify-content: center; margin-bottom: 10px">Button 1</button>
+            <button bindtap="b1Click" style="width: 90%; justify-content: center; margin-bottom: 10px; background-color: #fdeb99;">校园官网</button>
             <view hidden="{{b1Hidden}}" style="justify-content: center; margin-bottom: 30px">
                 <view class="flex-wrp" style="width: 100%; flex-direction: column; display: flex; justify-content: center">
-                    <button style="width: 75%; justify-content: center; margin-bottom: 5px">b1.1</button>
-                    <button style="width: 75%; justify-content: center; margin-bottom: 5px">b1.2</button>
+                    <button style="width: 85%; justify-content: center; margin-bottom: 5px; background-color: #fcf4cf;">主页</button>
+                    <button style="width: 85%; justify-content: center; margin-bottom: 5px">校历</button>
+                    <button style="width: 85%; justify-content: center; margin-bottom: 5px">地图</button>
                 </view>
             </view>
-            <button bindtap="b2Click" style="width: 80%; justify-content: center; margin-bottom: 10px">Button 2</button>
+            <button bindtap="b2Click" style="width: 90%; justify-content: center; margin-bottom: 10px; background-color: #fdeb99;">选课相关</button>
             <view hidden="{{b2Hidden}}" style="justify-content: center; margin-bottom: 30px">
                 <view class="flex-wrp" style="width: 100%; flex-direction: column; display: flex; justify-content: center">
-                    <button style="width: 75%; justify-content: center; margin-bottom: 5px">b2.1</button>
-                    <button style="width: 75%; justify-content: center; margin-bottom: 5px">b2.2</button>
+                    <button style="width: 85%; justify-content: center; margin-bottom: 5px; background-color: #fcf4cf;">Testudo</button>
+                    <button style="width: 85%; justify-content: center; margin-bottom: 5px">课程表 Schedule of Classes</button>
+                    <button style="width: 85%; justify-content: center; margin-bottom: 5px">时间 Registration Status</button>
+                    <button style="width: 85%; justify-content: center; margin-bottom: 5px">选课 Registration(Drop/Add)</button>
+                    <button style="width: 85%; justify-content: center; margin-bottom: 5px">候补 Waitlist Check-in</button>
+                    <button style="width: 85%; justify-content: center; margin-bottom: 5px">个人课表 Student Schedule</button>
+                </view>
+            </view>
+            <button bindtap="b3Click" style="width: 90%; justify-content: center; margin-bottom: 10px; background-color: #fdeb99;">学位相关</button>
+            <view hidden="{{b3Hidden}}" style="justify-content: center; margin-bottom: 30px">
+                <view class="flex-wrp" style="width: 100%; flex-direction: column; display: flex; justify-content: center">
+                    <button style="width: 85%; justify-content: center; margin-bottom: 5px; background-color: #fcf4cf;">Testudo</button>
+                    <button style="width: 85%; justify-content: center; margin-bottom: 5px">学位模拟 Degree Audit</button>
+                    <button style="width: 85%; justify-content: center; margin-bottom: 5px">申请在读证明 Enrollment Certification Request</button>
+                    <button style="width: 85%; justify-content: center; margin-bottom: 5px">非官方成绩单 Unofficial Transcript</button>
+                    <button style="width: 85%; justify-content: center; margin-bottom: 5px">申请成绩单 Transcript Request</button>
                 </view>
             </view>
         </view>
