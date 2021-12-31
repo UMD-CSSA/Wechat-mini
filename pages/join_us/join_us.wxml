@@ -1,2 +1,26 @@
-<!--pages/profile/profile.wxml-->
+<!--pages/profile/profile.wxml
 <text>pages/join_us/join_us.wxml</text>
+<scroll-view scroll-y="true">
+<view>
+
+Join Us!
+
+</view>
+</scroll-view>
+<template name="msgItem">
+  <view>
+    <text> {{index}}: {{msg}} </text>
+    <image mode="aspectFit" src="{{item.meta.cover}}" class="cover"></image>
+  </view>
+</template>-->
+
+<template name="staffName">
+  <view class = join>
+     {{firstName}},  {{lastName}}
+    <image mode="aspectFit" src="/pages/join_us/主席团合照.png" class="join"></image>
+  </view>
+</template>
+
+<template is="staffName" data="{{...staffA}}"></template>
+<template is="staffName" data="{{...staffB}}"></template>
+<template is="staffName" data="{{...staffC}}"></template>

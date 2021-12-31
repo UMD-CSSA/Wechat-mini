@@ -1,4 +1,4 @@
-/**index.wxss**/
+/**home.wxss**/
 .announcement .announce_img {
   padding: 5rpx;
   height: 40rpx;
