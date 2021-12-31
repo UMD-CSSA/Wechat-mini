@@ -1,3 +1,2 @@
 <!--pages/shortcuts/选课相关/Registrtion_Status.wxml-->
-<text>pages/shortcuts/选课相关/Registrtion_Status.wxml</text>
 <web-view src='https://app.testudo.umd.edu/main/regAppt'></web-view>

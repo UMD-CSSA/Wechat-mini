@@ -1,3 +1,2 @@
 <!--pages/shortcuts/学位相关/Transcript.wxml-->
-<text>pages/shortcuts/学位相关/Transcript.wxml</text>
 <web-view src="https://app.testudo.umd.edu/main/transcriptRequestView"></web-view>

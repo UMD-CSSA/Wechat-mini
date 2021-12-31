@@ -16,57 +16,57 @@ Page({
     },
     Testudo1(){
         wx.navigateTo({
-          url: '/pages/shortcuts/选课相关/Testudo.wxml',
+          url: '/pages/shortcuts/选课相关/Testudo',
         })
     },
     课程表(){
         wx.navigateTo({
-          url: '/pages/shortcuts/选课相关/Schdule_of_Classes.wxml',
+          url: '/pages/shortcuts/选课相关/Schdule_of_Classes',
         })
     },
     注册时间(){
         wx.navigateTo({
-          url: '/pages/shortcuts/选课相关/Registrtion_Status.wxml',
+          url: '/pages/shortcuts/选课相关/Registrtion_Status',
         })
     },
     选课(){
         wx.navigateTo({
-          url: '/pages/shortcuts/选课相关/Registration.wxml',
+          url: '/pages/shortcuts/选课相关/Registration',
         })
     },
     候补(){
         wx.navigateTo({
-          url: '/pages/shortcuts/选课相关/Waitlist.wxml',
+          url: '/pages/shortcuts/选课相关/Waitlist',
         })
     },
     个人课表(){
         wx.navigateTo({
-          url: '/pages/shortcuts/选课相关/Student_Schedule.wxml',
+          url: '/pages/shortcuts/选课相关/Student_Schedule',
         })
     },
     Testudo2(){
         wx.navigateTo({
-          url: '/pages/shortcuts/学位相关/Testudo.wxml',
+          url: '/pages/shortcuts/学位相关/Testudo',
         })
     },
     学位模拟(){
         wx.navigateTo({
-          url: '/pages/shortcuts/学位相关/Testudo.wxml',
+          url: '/pages/shortcuts/学位相关/Testudo',
         })
     },
     申请在读证明(){
         wx.navigateTo({
-          url: '/pages/shortcuts/学位相关/Enrollment.wxml',
+          url: '/pages/shortcuts/学位相关/Enrollment',
         })
     },
     非官方成绩单(){
         wx.navigateTo({
-          url: '/pages/shortcuts/学位相关/Unofficial_Transcript.wxml',
+          url: '/pages/shortcuts/学位相关/Unofficial_Transcript',
         })
     },
     申请成绩单(){
         wx.navigateTo({
-          url: '/pages/shortcuts/学位相关/Transcript.wxml',
+          url: '/pages/shortcuts/学位相关/Transcript',
         })
     },
     
