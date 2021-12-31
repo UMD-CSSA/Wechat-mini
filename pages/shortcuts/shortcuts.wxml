@@ -6,29 +6,29 @@
             <view hidden="{{b1Hidden}}" style="justify-content: center; margin-bottom: 30px">
                 <view class="flex-wrp" style="width: 100%; flex-direction: column; display: flex; justify-content: center">
                     <button style="width: 85%; justify-content: center; margin-bottom: 5px; background-color: #fcf4cf;" bindtap="主页">主页</button>
-                    <button style="width: 85%; justify-content: center; margin-bottom: 5px">校历 Academic Calendar</button>
-                    <button style="width: 85%; justify-content: center; margin-bottom: 5px">地图 Campus Map</button>
+                    <button style="width: 85%; justify-content: center; margin-bottom: 5px" bindtap="校历">校历 Academic Calendar</button>
+                    <button style="width: 85%; justify-content: center; margin-bottom: 5px" bindtap="地图">地图 Campus Map</button>
                 </view>
             </view>
             <button bindtap="b2Click" style="width: 90%; justify-content: center; margin-bottom: 10px; background-color: #fdeb99;">选课相关</button>
             <view hidden="{{b2Hidden}}" style="justify-content: center; margin-bottom: 30px">
                 <view class="flex-wrp" style="width: 100%; flex-direction: column; display: flex; justify-content: center">
-                    <button style="width: 85%; justify-content: center; margin-bottom: 5px; background-color: #fcf4cf;">Testudo</button>
-                    <button style="width: 85%; justify-content: center; margin-bottom: 5px">课程表 Schedule of Classes</button>
-                    <button style="width: 85%; justify-content: center; margin-bottom: 5px">时间 Registration Status</button>
-                    <button style="width: 85%; justify-content: center; margin-bottom: 5px">选课 Registration(Drop/Add)</button>
-                    <button style="width: 85%; justify-content: center; margin-bottom: 5px">候补 Waitlist Check-in</button>
-                    <button style="width: 85%; justify-content: center; margin-bottom: 5px">个人课表 Student Schedule</button>
+                    <button style="width: 85%; justify-content: center; margin-bottom: 5px; background-color: #fcf4cf;" bindtap="Testudo1">Testudo</button>
+                    <button style="width: 85%; justify-content: center; margin-bottom: 5px" bindtap="课程表">课程表 Schedule of Classes</button>
+                    <button style="width: 85%; justify-content: center; margin-bottom: 5px" bindtap="注册时间">注册时间 Registration Status</button>
+                    <button style="width: 85%; justify-content: center; margin-bottom: 5px" bindtap="选课">选课 Registration(Drop/Add)</button>
+                    <button style="width: 85%; justify-content: center; margin-bottom: 5px" bindtap="候补">候补 Waitlist Check-in</button>
+                    <button style="width: 85%; justify-content: center; margin-bottom: 5px" bindtap="个人课表">个人课表 Student Schedule</button>
                 </view>
             </view>
             <button bindtap="b3Click" style="width: 90%; justify-content: center; margin-bottom: 10px; background-color: #fdeb99;">学位相关</button>
             <view hidden="{{b3Hidden}}" style="justify-content: center; margin-bottom: 30px">
                 <view class="flex-wrp" style="width: 100%; flex-direction: column; display: flex; justify-content: center">
-                    <button style="width: 85%; justify-content: center; margin-bottom: 5px; background-color: #fcf4cf;">Testudo</button>
-                    <button style="width: 85%; justify-content: center; margin-bottom: 5px">学位模拟 Degree Audit</button>
-                    <button style="width: 85%; justify-content: center; margin-bottom: 5px">申请在读证明 Enrollment Certification Request</button>
-                    <button style="width: 85%; justify-content: center; margin-bottom: 5px">非官方成绩单 Unofficial Transcript</button>
-                    <button style="width: 85%; justify-content: center; margin-bottom: 5px">申请成绩单 Transcript Request</button>
+                    <button style="width: 85%; justify-content: center; margin-bottom: 5px; background-color: #fcf4cf;" bindtap="Testudo2">Testudo</button>
+                    <button style="width: 85%; justify-content: center; margin-bottom: 5px" bindtap="学位模拟">学位模拟 Degree Audit</button>
+                    <button style="width: 85%; justify-content: center; margin-bottom: 5px" bindtap="申请在读证明">申请在读证明 Enrollment Certification Request</button>
+                    <button style="width: 85%; justify-content: center; margin-bottom: 5px" bindtap="非官方成绩单">非官方成绩单 Unofficial Transcript</button>
+                    <button style="width: 85%; justify-content: center; margin-bottom: 5px" bindtap="申请成绩单">申请成绩单 Transcript Request</button>
                 </view>
             </view>
         </view>

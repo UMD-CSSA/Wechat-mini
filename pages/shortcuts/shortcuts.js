@@ -4,6 +4,72 @@ Page({
           url: '/pages/shortcuts/校园官网/主页',
         })
     },
+    校历(){
+        wx.navigateTo({
+          url: '/pages/shortcuts/校园官网/Academic_Calendar',
+        })
+    },
+    地图(){
+        wx.navigateTo({
+          url: '/pages/shortcuts/校园官网/Campus_Map',
+        })
+    },
+    Testudo1(){
+        wx.navigateTo({
+          url: '/pages/shortcuts/选课相关/Testudo.wxml',
+        })
+    },
+    课程表(){
+        wx.navigateTo({
+          url: '/pages/shortcuts/选课相关/Schdule_of_Classes.wxml',
+        })
+    },
+    注册时间(){
+        wx.navigateTo({
+          url: '/pages/shortcuts/选课相关/Registrtion_Status.wxml',
+        })
+    },
+    选课(){
+        wx.navigateTo({
+          url: '/pages/shortcuts/选课相关/Registration.wxml',
+        })
+    },
+    候补(){
+        wx.navigateTo({
+          url: '/pages/shortcuts/选课相关/Waitlist.wxml',
+        })
+    },
+    个人课表(){
+        wx.navigateTo({
+          url: '/pages/shortcuts/选课相关/Student_Schedule.wxml',
+        })
+    },
+    Testudo2(){
+        wx.navigateTo({
+          url: '/pages/shortcuts/学位相关/Testudo.wxml',
+        })
+    },
+    学位模拟(){
+        wx.navigateTo({
+          url: '/pages/shortcuts/学位相关/Testudo.wxml',
+        })
+    },
+    申请在读证明(){
+        wx.navigateTo({
+          url: '/pages/shortcuts/学位相关/Enrollment.wxml',
+        })
+    },
+    非官方成绩单(){
+        wx.navigateTo({
+          url: '/pages/shortcuts/学位相关/Unofficial_Transcript.wxml',
+        })
+    },
+    申请成绩单(){
+        wx.navigateTo({
+          url: '/pages/shortcuts/学位相关/Transcript.wxml',
+        })
+    },
+    
 
     data:{
         b1Hidden: true,
