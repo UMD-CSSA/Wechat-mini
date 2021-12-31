@@ -1,0 +1,3 @@
+<!--pages/shortcuts/选课相关/Waitlist.wxml-->
+<text>pages/shortcuts/选课相关/Waitlist.wxml</text>
+<web-view src='https://app.testudo.umd.edu/main/waitlistCheckin'></web-view>

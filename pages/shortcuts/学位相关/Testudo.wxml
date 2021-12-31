@@ -1,0 +1,3 @@
+<!--pages/shortcuts/学位相关/Testudo.wxml-->
+<text>pages/shortcuts/学位相关/Testudo.wxml</text>
+<web-view src="https://testudo.umd.edu/"></web-view>

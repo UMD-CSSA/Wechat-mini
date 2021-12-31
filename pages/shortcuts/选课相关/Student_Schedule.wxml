@@ -1,0 +1,3 @@
+<!--pages/shortcuts/选课相关/Student_Schedule.wxml-->
+<text>pages/shortcuts/选课相关/Student_Schedule.wxml</text>
+<web-view src='https://app.testudo.umd.edu/main/schedule'></web-view>

@@ -1,0 +1,3 @@
+<!--pages/shortcuts/学位相关/Enrollment.wxml-->
+<text>pages/shortcuts/学位相关/Enrollment.wxml</text>
+<web-view src='https://app.testudo.umd.edu/main/enrollmentCertificationStatus'></web-view>

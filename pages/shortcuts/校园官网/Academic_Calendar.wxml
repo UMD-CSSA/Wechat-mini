@@ -1,0 +1,3 @@
+<!--pages/shortcuts/校园官网/Academic_Calendar.wxml-->
+<text>pages/shortcuts/校园官网/Academic_Calendar.wxml</text>
+<web-view src='https://provost.umd.edu/calendar'></web-view>
