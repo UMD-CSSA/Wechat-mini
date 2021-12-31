@@ -1,0 +1,2 @@
+<!--pages/shortcuts/食宿相关/student_portal_d.wxml-->
+<web-view src='https://dsonline2.umd.edu/dpmsonline/home.do'></web-view>

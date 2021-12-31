@@ -1,0 +1,2 @@
+<!--pages/shortcuts/食宿相关/dining_dollar.wxml-->
+<web-view src="http://dining.umd.edu/diningdollars/"></web-view>

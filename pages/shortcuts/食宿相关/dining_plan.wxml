@@ -1,0 +1,2 @@
+<!--pages/shortcuts/食宿相关/dining_plan.wxml-->
+<web-view src="http://dining.umd.edu/plans/"></web-view>

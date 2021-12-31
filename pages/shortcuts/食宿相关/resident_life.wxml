@@ -1,0 +1,2 @@
+<!--pages/shortcuts/食宿相关/resident_life.wxml-->
+<web-view src="http://reslife.umd.edu/"></web-view>

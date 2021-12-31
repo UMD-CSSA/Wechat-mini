@@ -20,7 +20,18 @@
     "pages/shortcuts/学位相关/Degree_Audit",
     "pages/shortcuts/学位相关/Enrollment",
     "pages/shortcuts/学位相关/Unofficial_Transcript",
-    "pages/shortcuts/学位相关/Transcript"
+    "pages/shortcuts/学位相关/Transcript",
+    "pages/shortcuts/食宿相关/dining",
+    "pages/shortcuts/食宿相关/student_portal_d",
+    "pages/shortcuts/食宿相关/dining_plan",
+    "pages/shortcuts/食宿相关/dining_dollar",
+    "pages/shortcuts/食宿相关/terripin_express",
+    "pages/shortcuts/食宿相关/resident_life",
+    "pages/shortcuts/食宿相关/student_portal_rl",
+    "pages/shortcuts/食宿相关/oncampus",
+    "pages/shortcuts/食宿相关/offcampus"
+
+
   ],
   "window":{
     "backgroundTextStyle":"light",

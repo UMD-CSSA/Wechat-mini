@@ -69,13 +69,63 @@ Page({
           url: '/pages/shortcuts/学位相关/Transcript',
         })
     },
+    dining(){
+      wx.navigateTo({
+        url: '/pages/shortcuts/食宿相关/dining',
+      })
+  },
+
+  student_portal_d(){
+    wx.navigateTo({
+      url: '/pages/shortcuts/食宿相关/student_portal_d',
+    })
+},
+dining_plan(){
+  wx.navigateTo({
+    url: '/pages/shortcuts/食宿相关/dining_plan',
+  })
+},
+dining_dollar(){
+  wx.navigateTo({
+    url: '/pages/shortcuts/食宿相关/dining_dollar',
+  })
+},
+terripin_express(){
+  wx.navigateTo({
+    url: '/pages/shortcuts/食宿相关/terripin_express',
+  })
+},
+resident_life(){
+  wx.navigateTo({
+    url: '/pages/shortcuts/食宿相关/resident_life',
+  })
+},
+student_portal_rl(){
+  wx.navigateTo({
+    url: '/pages/shortcuts/食宿相关/student_portal_rl',
+  })
+},
+oncampus(){
+  wx.navigateTo({
+    url: '/pages/shortcuts/食宿相关/oncampus',
+  })
+},
+offcampus(){
+  wx.navigateTo({
+    url: '/pages/shortcuts/食宿相关/offcampus',
+  })
+},
+
+
     
 
     data:{
         b1Hidden: true,
         b2Hidden: true,
-        b3Hidden: true
+        b3Hidden: true,
+        b4hidden: true
     },
+
     b1Click: function(event) {
         // console.log(this.data.b1Hidden)
         this.setData({
@@ -96,5 +146,12 @@ Page({
             b3Hidden: (!this.data.b3Hidden)
         })
         // console.log(this.data.b3Hidden)
-    }
+    },
+    b4Click: function(event) {
+      // console.log(this.data.b4Hidden)
+      this.setData({
+          b4Hidden: (!this.data.b4Hidden)
+      })
+      // console.log(this.data.b4Hidden)
+  }
 });

@@ -42,7 +42,7 @@
 
 <!-- 海报背景 -->
 <view class='poster'>
-  <view class='bgImg' style=" background: url({{ bannerData[bannerCurrent].focus }}); background-size:cover;"></view>
+  <view class='bgImg' style=" background: url({{ bannerData[bannerCurrent].focus }}) background-size:cover"></view>
   <view class='cover'></view>
 </view>
 
