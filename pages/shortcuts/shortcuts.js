@@ -1,4 +1,10 @@
 Page({
+    主页(){
+        wx.navigateTo({
+          url: '/pages/shortcuts/校园官网/主页',
+        })
+    },
+
     data:{
         b1Hidden: true,
         b2Hidden: true,

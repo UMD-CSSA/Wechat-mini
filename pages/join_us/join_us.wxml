@@ -1,2 +1,9 @@
 <!--pages/profile/profile.wxml-->
-<text>pages/join_us/join_us.wxml</text>
+<view>
+  <text>微信公众号：</text>
+  <text>UMDCSSA微信号：</text>
+  <text>ins：</text>
+  <text>bilibili：</text>
+  <text>抖音：</text>
+  <text>邮箱：</text>
+</view>
