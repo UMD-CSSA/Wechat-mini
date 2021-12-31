@@ -1,0 +1,3 @@
+<!--pages/shortcuts/学位相关/Degree_Audit.wxml-->
+<text>pages/shortcuts/学位相关/Degree_Audit.wxml</text>
+<web-view src='https://uachieve.umd.edu/'></web-view>

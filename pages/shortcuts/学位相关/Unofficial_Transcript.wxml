@@ -1,0 +1,3 @@
+<!--pages/shortcuts/学位相关/Unofficial_Transcript.wxml-->
+<text>pages/shortcuts/学位相关/Unofficial_Transcript.wxml</text>
+<web-view src="https://app.testudo.umd.edu/main/uotrans"></web-view>

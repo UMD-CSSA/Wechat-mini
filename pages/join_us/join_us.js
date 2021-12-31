@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Page({
 
   data: {
@@ -7,3 +8,6 @@ Page({
   }
 
 })
+=======
+Page({});
+>>>>>>> 6b23d41ccce0bb3a38e691da17e44dae72ac224e

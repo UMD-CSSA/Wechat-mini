@@ -6,7 +6,21 @@
     "pages/join_us/join_us",
     "pages/home/新生手册",
     "pages/home/重要通知",
-    "pages/home/CSSA构成/CSSA构成"
+    "pages/home/CSSA构成/CSSA构成",
+    "pages/shortcuts/校园官网/主页",
+    "pages/shortcuts/校园官网/Academic_Calendar",
+    "pages/shortcuts/校园官网/Campus_Map",
+    "pages/shortcuts/选课相关/Testudo",
+    "pages/shortcuts/选课相关/Schdule_of_Classes",
+    "pages/shortcuts/选课相关/Registrtion_Status",
+    "pages/shortcuts/选课相关/Registration",
+    "pages/shortcuts/选课相关/Waitlist",
+    "pages/shortcuts/选课相关/Student_Schedule",
+    "pages/shortcuts/学位相关/Testudo",
+    "pages/shortcuts/学位相关/Degree_Audit",
+    "pages/shortcuts/学位相关/Enrollment",
+    "pages/shortcuts/学位相关/Unofficial_Transcript",
+    "pages/shortcuts/学位相关/Transcript"
   ],
   "window":{
     "backgroundTextStyle":"light",
