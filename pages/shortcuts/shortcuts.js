@@ -139,48 +139,77 @@ Page({
       })
     },
 
+    library(){
+      wx.navigateTo({
+        url: '/pages/shortcuts/校园设施/library',
+      })
+    },
+    gym(){
+      wx.navigateTo({
+        url: '/pages/shortcuts/校园设施/gym',
+      })
+    },
+
+    isss(){
+      wx.navigateTo({
+        url: '/pages/shortcuts/ISSS/isss',
+      })
+    },
+    iterp(){
+      wx.navigateTo({
+        url: '/pages/shortcuts/ISSS/iterp',
+      })
+    },
+    appointment(){
+      wx.navigateTo({
+        url: '/pages/shortcuts/ISSS/appointment',
+      })
+    },
+
 
     data:{
         b1Hidden: true,
         b2Hidden: true,
         b3Hidden: true,
         b4Hidden: true,
-        b5Hidden: true
+        b5Hidden: true,
+        b6Hidden: true,
+        b7Hidden: true
     },
 
     b1Click: function(event) {
-        // console.log(this.data.b1Hidden)
         this.setData({
             b1Hidden: (!this.data.b1Hidden)
         })
-        // console.log(this.data.b1Hidden)
     },
     b2Click: function(event) {
-        // console.log(this.data.b2Hidden)
         this.setData({
             b2Hidden: (!this.data.b2Hidden)
         })
-        // console.log(this.data.b2Hidden)
     },
     b3Click: function(event) {
-        // console.log(this.data.b3Hidden)
         this.setData({
             b3Hidden: (!this.data.b3Hidden)
         })
-        // console.log(this.data.b3Hidden)
     },
     b4Click: function(event) {
-      // console.log(this.data.b4Hidden)
       this.setData({
           b4Hidden: (!this.data.b4Hidden)
       })
-      // console.log(this.data.b4Hidden)
     },
     b5Click: function(event) {
-      // console.log(this.data.b5Hidden)
       this.setData({
           b5Hidden: (!this.data.b5Hidden)
       })
-      // console.log(this.data.b5Hidden)
+    },
+    b6Click: function(event) {
+      this.setData({
+          b6Hidden: (!this.data.b6Hidden)
+      })
+    },
+    b7Click: function(event) {
+      this.setData({
+          b7Hidden: (!this.data.b7Hidden)
+      })
     }
 });

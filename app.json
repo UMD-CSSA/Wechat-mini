@@ -33,7 +33,12 @@
     "pages/shortcuts/健康相关/health",
     "pages/shortcuts/健康相关/student_portal_h",
     "pages/shortcuts/健康相关/covid",
-    "pages/shortcuts/健康相关/insurance"
+    "pages/shortcuts/健康相关/insurance",
+    "pages/shortcuts/校园设施/library",
+    "pages/shortcuts/校园设施/gym",
+    "pages/shortcuts/ISSS/isss",
+    "pages/shortcuts/ISSS/iterp",
+    "pages/shortcuts/ISSS/appointment"
   ],
   "window":{
     "backgroundTextStyle":"light",
