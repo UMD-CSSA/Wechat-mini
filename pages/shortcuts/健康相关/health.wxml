@@ -1,0 +1,2 @@
+<!--pages/shortcuts/健康相关/health.wxml-->
+<web-view src="https://health.umd.edu/"></web-view>

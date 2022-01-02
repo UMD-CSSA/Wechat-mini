@@ -14,6 +14,7 @@ Page({
           url: '/pages/shortcuts/校园官网/Campus_Map',
         })
     },
+
     Testudo1(){
         wx.navigateTo({
           url: '/pages/shortcuts/选课相关/Testudo',
@@ -44,6 +45,7 @@ Page({
           url: '/pages/shortcuts/选课相关/Student_Schedule',
         })
     },
+
     Testudo2(){
         wx.navigateTo({
           url: '/pages/shortcuts/学位相关/Testudo',
@@ -69,61 +71,81 @@ Page({
           url: '/pages/shortcuts/学位相关/Transcript',
         })
     },
+
     dining(){
       wx.navigateTo({
         url: '/pages/shortcuts/食宿相关/dining',
       })
-  },
+    },
+    student_portal_d(){
+      wx.navigateTo({
+        url: '/pages/shortcuts/食宿相关/student_portal_d',
+      })
+    },
+    dining_plan(){
+      wx.navigateTo({
+        url: '/pages/shortcuts/食宿相关/dining_plan',
+      })
+    },
+    dining_dollar(){
+      wx.navigateTo({
+        url: '/pages/shortcuts/食宿相关/dining_dollar',
+      })
+    },
+    terripin_express(){
+      wx.navigateTo({
+        url: '/pages/shortcuts/食宿相关/terripin_express',
+      })
+    },
+    resident_life(){
+      wx.navigateTo({
+        url: '/pages/shortcuts/食宿相关/resident_life',
+      })
+    },
+    student_portal_rl(){
+      wx.navigateTo({
+        url: '/pages/shortcuts/食宿相关/student_portal_rl',
+      })
+    },
+    oncampus(){
+      wx.navigateTo({
+        url: '/pages/shortcuts/食宿相关/oncampus',
+      })
+    },
+    offcampus(){
+      wx.navigateTo({
+        url: '/pages/shortcuts/食宿相关/offcampus',
+      })
+    },
 
-  student_portal_d(){
-    wx.navigateTo({
-      url: '/pages/shortcuts/食宿相关/student_portal_d',
-    })
-},
-dining_plan(){
-  wx.navigateTo({
-    url: '/pages/shortcuts/食宿相关/dining_plan',
-  })
-},
-dining_dollar(){
-  wx.navigateTo({
-    url: '/pages/shortcuts/食宿相关/dining_dollar',
-  })
-},
-terripin_express(){
-  wx.navigateTo({
-    url: '/pages/shortcuts/食宿相关/terripin_express',
-  })
-},
-resident_life(){
-  wx.navigateTo({
-    url: '/pages/shortcuts/食宿相关/resident_life',
-  })
-},
-student_portal_rl(){
-  wx.navigateTo({
-    url: '/pages/shortcuts/食宿相关/student_portal_rl',
-  })
-},
-oncampus(){
-  wx.navigateTo({
-    url: '/pages/shortcuts/食宿相关/oncampus',
-  })
-},
-offcampus(){
-  wx.navigateTo({
-    url: '/pages/shortcuts/食宿相关/offcampus',
-  })
-},
+    health(){
+      wx.navigateTo({
+        url: '/pages/shortcuts/健康相关/health',
+      })
+    },
+    student_portal_h(){
+      wx.navigateTo({
+        url: '/pages/shortcuts/健康相关/student_portal_h',
+     })
+    },
+    covid(){
+      wx.navigateTo({
+        url: '/pages/shortcuts/健康相关/covid',
+      })
+    },
+    insurance(){
+      wx.navigateTo({
+        url: '/pages/shortcuts/健康相关/insurance',
+      })
+    },
 
-
-    
 
     data:{
         b1Hidden: true,
         b2Hidden: true,
         b3Hidden: true,
-        b4hidden: true
+        b4Hidden: true,
+        b5Hidden: true
     },
 
     b1Click: function(event) {
@@ -153,5 +175,12 @@ offcampus(){
           b4Hidden: (!this.data.b4Hidden)
       })
       // console.log(this.data.b4Hidden)
-  }
+    },
+    b5Click: function(event) {
+      // console.log(this.data.b5Hidden)
+      this.setData({
+          b5Hidden: (!this.data.b5Hidden)
+      })
+      // console.log(this.data.b5Hidden)
+    }
 });

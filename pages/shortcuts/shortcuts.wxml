@@ -3,7 +3,7 @@
     <view class="page-body" style="width: 100%; box-sizing: border-box">
         <view class="flex-wrp" style="flex-direction: column; display: flex">
             <button bindtap="b1Click" style="width: 90%; justify-content: center; margin-bottom: 10px; background-color: #fdeb99;">校园官网</button>
-            <view hidden="{{b1Hidden}}" style="justify-content: center; margin-bottom: 30px">
+            <view hidden="{{b1Hidden}}" style="justify-content: center; margin-bottom: 15px">
                 <view class="flex-wrp" style="width: 100%; flex-direction: column; display: flex; justify-content: center">
                     <button style="width: 85%; justify-content: center; margin-bottom: 5px; background-color: #fcf4cf;" bindtap="主页">主页</button>
                     <button style="width: 85%; justify-content: center; margin-bottom: 5px" bindtap="校历">校历 Academic Calendar</button>
@@ -12,7 +12,7 @@
             </view>
 
             <button bindtap="b2Click" style="width: 90%; justify-content: center; margin-bottom: 10px; background-color: #fdeb99;">选课相关</button>
-            <view hidden="{{b2Hidden}}" style="justify-content: center; margin-bottom: 30px">
+            <view hidden="{{b2Hidden}}" style="justify-content: center; margin-bottom: 15px">
                 <view class="flex-wrp" style="width: 100%; flex-direction: column; display: flex; justify-content: center">
                     <button style="width: 85%; justify-content: center; margin-bottom: 5px; background-color: #fcf4cf;" bindtap="Testudo1">Testudo</button>
                     <button style="width: 85%; justify-content: center; margin-bottom: 5px" bindtap="课程表">课程表 Schedule of Classes</button>
@@ -24,7 +24,7 @@
             </view>
 
             <button bindtap="b3Click" style="width: 90%; justify-content: center; margin-bottom: 10px; background-color: #fdeb99;">学位相关</button>
-            <view hidden="{{b3Hidden}}" style="justify-content: center; margin-bottom: 30px">
+            <view hidden="{{b3Hidden}}" style="justify-content: center; margin-bottom: 15px">
                 <view class="flex-wrp" style="width: 100%; flex-direction: column; display: flex; justify-content: center">
                     <button style="width: 85%; justify-content: center; margin-bottom: 5px; background-color: #fcf4cf;" bindtap="Testudo2">Testudo</button>
                     <button style="width: 85%; justify-content: center; margin-bottom: 5px" bindtap="学位模拟">学位模拟 Degree Audit</button>
@@ -35,23 +35,29 @@
             </view>
 
             <button bindtap="b4Click" style="width: 90%; justify-content: center; margin-bottom: 10px; background-color: #fdeb99;">食宿相关</button>
-            <view hidden="{{b4Hidden}}" style="justify-content: center; margin-bottom: 30px">
+            <view hidden="{{b4Hidden}}" style="justify-content: center; margin-bottom: 15px">
                 <view class="flex-wrp" style="width: 100%; flex-direction: column; display: flex; justify-content: center">
                     <button style="width: 85%; justify-content: center; margin-bottom: 5px; background-color: #fcf4cf;" bindtap="dining">食堂主页</button>
                     <button style="width: 85%; justify-content: center; margin-bottom: 5px" bindtap="student_portal_d">Student portal</button>
                     <button style="width: 85%; justify-content: center; margin-bottom: 5px" bindtap="dining_plan">Dining plan</button>
                     <button style="width: 85%; justify-content: center; margin-bottom: 5px" bindtap="dining_dollar">Dining dollar</button>
                     <button style="width: 85%; justify-content: center; margin-bottom: 5px" bindtap="terripin_express">Terripin express</button>
-                  
                     <button style="width: 85%; justify-content: center; margin-bottom: 5px; background-color: #fcf4cf;" bindtap="resident_life">宿舍主页</button>
                     <button style="width: 85%; justify-content: center; margin-bottom: 5px" bindtap="student_portal_rl">student portal</button>
                     <button style="width: 85%; justify-content: center; margin-bottom: 5px" bindtap="oncampus">On campus</button>
                     <button style="width: 85%; justify-content: center; margin-bottom: 5px" bindtap="offcampus">Off campus</button>
- 
                 </view>
             </view>
 
-
+            <button bindtap="b5Click" style="width: 90%; justify-content: center; margin-bottom: 10px; background-color: #fdeb99;">健康相关</button>
+            <view hidden="{{b5Hidden}}" style="justify-content: center; margin-bottom: 30px">
+                <view class="flex-wrp" style="width: 100%; flex-direction: column; display: flex; justify-content: center">
+                    <button style="width: 85%; justify-content: center; margin-bottom: 5px; background-color: #fcf4cf;" bindtap="health">主页</button>
+                    <button style="width: 85%; justify-content: center; margin-bottom: 5px" bindtap="student_portal_h">Student portal</button>
+                    <button style="width: 85%; justify-content: center; margin-bottom: 5px" bindtap="covid">疫情主页 Covid Info</button>
+                    <button style="width: 85%; justify-content: center; margin-bottom: 5px" bindtap="insurance">校内保险 Insurance</button>
+                </view>
+            </view>
         </view>
     </view>
 </view>
