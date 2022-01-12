@@ -1,80 +1,66 @@
+// Page({
+// });
+
+//index.js
+//获取应用实例
+var app = getApp();
+var cardTeams;
+
 Page({
-  getArtLists(accessToken){
-    wx.request({
-      url: 'https://api.weixin.qq.com/cgi-bin/material/get_materialcount?access_token=' + accessToken,
-      method:'GET',
-      success(res){
-        let news_count=res.data.news_count;
-        let res_id=null;
-        for (var i = 0; i < Math.ceil(news_count/20);i++){
-          wx.request({
-            url: 'https://api.weixin.qq.com/cgi-bin/material/batchget_material?access_token=' + accessToken,
-            data: {
-              "type": 'news',
-              "offset": i*20,
-              "count": 20
-            },
-            method: 'POST',
-            header: {
-              'content-type': 'application/json'
-            },
-            success(res) {
-              console.log('微信素材列表', res)
-              for(let j=0;j<res.data.item.length;j++){
-                let news_item = res.data.item[j].content.news_item;
-                for(let k=0;k<news_item.length;k++){
-                  let title=news_item[k].title;//标题
-                  let url=news_item[k].url;//链接
-                  let image_url=news_item[k].thumb_url;//封面
-                  let digest=news_item[k].digest;//摘要
-                  let author=news_item[k].author;//作者
-                  db.collection('pushData').where({
-                    _id: url
-                  }).get({
-                    success: function (res) {
-                      res_id = res.data[0]._id;
-                    }
-                  })
-                  if (res_id == url) {
-                  } else {
-                    db.collection('pushData').add({
-                      data: {
-                        _id: url,
-                        title: title,
-                        digest:digest,
-                        image_url:image_url,
-                      },
-                      success: function (res) {
-                        console.log(url+'插入成功')
-                      },
-                    })
-                  }
-                }
-              }
-            },
-            fail(res) {
-              wx.showToast({
-                title: res.data.msg,
-                icon: 'none'
-              })
-            },
-            complete() {   
-            }
-          })
-        }
+  data: {
+    cardTeams: [{
+        "viewid": "1",
+        "imgsrc": "../../images/win/1.jpg",
+        "price": "¥1245",
+        "count": "一个40岁老码农的总结，",
+        "name": "一个40岁老码农的总结，奋斗",
+
+      }, {
+        "viewid": "2",
+        "imgsrc": "../../images/win/2.jpg",
+        "price": "¥2345",
+        "count": "小公司打杂三年，意外拿到",
+        "name": "小公司打杂三年，意外拿到美",
+
+      }, {
+        "viewid": "3",
+        "imgsrc": "../../images/win/3.jpg",
+        "price": "¥2345",
+
+        "count": "作为一个有追求的前端程序媛作",
+        "name": "作为一个有追求的前端程序媛",
+
+      }, {
+        "viewid": "4",
+        "imgsrc": "../../images/win/4.jpg",
+        "price": "¥2345",
+        "count": "女程序媛面试总结：我",
+        "name": "女程序媛面试总结：我是这",
+
+      },
+      {
+        "viewid": "5",
+        "imgsrc": "../../images/win/5.jpg",
+        "price": "¥2345",
+        "count": "前端工作那些年，怎么避？",
+        "name": "前端工作那些年，怎么避免",
+
       }
-    })
-  }
-});
-
-var serverUrl = 'http://localhost/test/getAccessToken.php';
-wx.request({
-  url: serverUrl,
-  method: 'GET',
-  dataType: 'json',
-  success:function(res){
-    console.log(res.data)
-    that.getArtLists(res.data.access_token)
+    ]
   },
-})
 
+
+  //事件处理函数
+  bindViewTap: function() {
+    wx.navigateTo({
+      url: '../weixinlink/weixinlink'
+     
+    })
+  },
+  onLoad: function() {
+    console.log('onLoad:' + app.globalData.domain)
+
+  }
+
+
+})

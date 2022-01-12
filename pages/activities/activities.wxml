@@ -1,7 +1,10 @@
-<!--pages/activities/activities.wxml-->
+<!-- pages/activities/activities.wxml
 <view class="btn-area">
   <view>
     <button style="width: 90%; " class="title">活动预告</button>
+  </view>
+  <view>
+    <web-view src='https://mp.weixin.qq.com/s?__biz=Mzg5NjY2ODg3MQ==&mid=2247497659&idx=1&sn=44e0a43276b4eeeb5be57a12aa3039f8&chksm=c07f3213f708bb056b8eec95416ad5a85dd483efd3ea82f3cc22642765e1c907f5092bf66d8c#rd'></web-view>
   </view>
 </view>
 
@@ -21,4 +24,23 @@
   <view class="passed_events">
   </view>
 </view>
+ -->
 
+ <navigator url="/pages/search/search" hover-class="changestyle">
+  <view class="view-search">
+    <input class="input" placeholder-class="input-placeholder" placeholder="输入文章和链接" bindinput="bindSearchInput" />
+    <image class="button" src="/images/search.png" bindtap="tapSearch" />
+  </view>
+</navigator>
+
+<view class="container">
+  <view wx:for="{{cardTeams}}" wx:key="{{cardTeam.viewid}}" wx:for-item="cardTeam" class="item" bindtap="bindViewTap">
+    <image class="img" src="{{cardTeam.imgsrc}}" mode="scaleToFill"></image>
+    <view class="number-wrapper">
+      <text class="name">{{cardTeam.name}}</text>
+      <view class="count-wrapper">
+        <text class="count">{{cardTeam.count}}</text>
+      </view>
+    </view>
+  </view>
+</view>
