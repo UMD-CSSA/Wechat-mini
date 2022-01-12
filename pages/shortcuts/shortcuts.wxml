@@ -50,7 +50,7 @@
             </view>
 
             <button bindtap="b5Click" style="width: 90%; justify-content: center; margin-bottom: 10px; background-color: #fdeb99;">健康相关</button>
-            <view hidden="{{b5Hidden}}" style="justify-content: center; margin-bottom: 30px">
+            <view hidden="{{b5Hidden}}" style="justify-content: center; margin-bottom: 15px">
                 <view class="flex-wrp" style="width: 100%; flex-direction: column; display: flex; justify-content: center">
                     <button style="width: 85%; justify-content: center; margin-bottom: 5px; background-color: #fcf4cf;" bindtap="health">主页</button>
                     <button style="width: 85%; justify-content: center; margin-bottom: 5px" bindtap="student_portal_h">Student Portal</button>
@@ -60,7 +60,7 @@
             </view>
 
             <button bindtap="b6Click" style="width: 90%; justify-content: center; margin-bottom: 10px; background-color: #fdeb99;">校园设施</button>
-            <view hidden="{{b6Hidden}}" style="justify-content: center; margin-bottom: 30px">
+            <view hidden="{{b6Hidden}}" style="justify-content: center; margin-bottom: 15px">
                 <view class="flex-wrp" style="width: 100%; flex-direction: column; display: flex; justify-content: center">
                     <button style="width: 85%; justify-content: center; margin-bottom: 5px" bindtap="library">图书馆 Library</button>
                     <button style="width: 85%; justify-content: center; margin-bottom: 5px" bindtap="gym">健身房 Gym</button>
@@ -68,7 +68,7 @@
             </view>
 
             <button bindtap="b7Click" style="width: 90%; justify-content: center; margin-bottom: 10px; background-color: #fdeb99;">ISSS</button>
-            <view hidden="{{b7Hidden}}" style="justify-content: center; margin-bottom: 30px">
+            <view hidden="{{b7Hidden}}" style="justify-content: center; margin-bottom: 15px">
                 <view class="flex-wrp" style="width: 100%; flex-direction: column; display: flex; justify-content: center">
                     <button style="width: 85%; justify-content: center; margin-bottom: 5px; background-color: #fcf4cf;" bindtap="isss">主页</button>
                     <button style="width: 85%; justify-content: center; margin-bottom: 5px" bindtap="iterp">Student Portal</button>
