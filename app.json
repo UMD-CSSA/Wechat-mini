@@ -38,13 +38,7 @@
     "pages/shortcuts/校园设施/gym",
     "pages/shortcuts/ISSS/isss",
     "pages/shortcuts/ISSS/iterp",
-    "pages/shortcuts/ISSS/appointment",
-    "pages/activities/Trailers/trailer1",
-    "pages/activities/Trailers/trailer2",
-    "pages/activities/Trailers/trailer3",
-    "pages/activities/Passed/passed1",
-    "pages/activities/Passed/passed2",
-    "pages/activities/Passed/passed3"
+    "pages/shortcuts/ISSS/appointment"
   ],
   "window":{
     "backgroundTextStyle":"light",
