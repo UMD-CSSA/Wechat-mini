@@ -37,7 +37,20 @@ Page({
     this.setData({
       swiperCurrent: e.detail.current
     })
-  }
+  },
+
+  data: {
+    type: 'policy',
+  },
+
+  onLoad: function(options) {},
+
+  handleType(event) {
+    const type = event.currentTarget.dataset.type;
+    this.setData({
+      type: type,
+    });
+  },
 })
 
 

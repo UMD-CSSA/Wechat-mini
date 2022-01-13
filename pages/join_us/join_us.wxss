@@ -24,7 +24,7 @@ image{
 .content{
   font-size: medium;
   color: black;
-  font-family:'黑体';
+  font-weight: bold;
 }
 
 .card .text1{
