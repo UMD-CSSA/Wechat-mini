@@ -34,3 +34,12 @@
     </button>
 </view>
 
+<view>
+  <view class='trailer' style="position:relative;" bindtap="trailer1">
+    <image class='trailer_bg' src="/pages/home/images/Trailer1.jpeg"></image>
+    <view class='title_case' style="position: absolute; bottom: 0;">
+      <text class='title'>2022虎年DC七校元宵晚会</text>
+    </view>
+  </view>
+</view>
+
