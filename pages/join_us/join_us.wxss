@@ -13,24 +13,25 @@ image{
 }
 
 .card{
-  background-color: #E03A3E;
-  opacity: 50%;
-  margin-left: 15%;
-  margin-right: 15%;
+  background-color: #f07c7e;
+  margin-left: 10%;
+  margin-right: 10%;
   height: 340px;
   border-radius: 15px;
   position: relative;
 }
 
-.card .content{
-  font-size: small;
+.content{
+  font-size: medium;
+  color: black;
+  font-family:'黑体';
 }
 
 .card .text1{
   position: absolute;
   margin-left: 20px;
   margin-right: 20px;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 .card .text2{
   position: absolute;
@@ -43,26 +44,26 @@ image{
   position: absolute;
   margin-left: 20px;
   margin-right: 20px;
-  margin-top: 120px;
+  margin-top: 130px;
 }
 
 .card .text4{
   position: absolute;
   margin-left: 20px;
   margin-right: 20px;
-  margin-top: 160px;
+  margin-top: 180px;
 }
 
 .card .text5{
   position: absolute;
   margin-left: 20px;
   margin-right: 20px;
-  margin-top: 200px;
+  margin-top: 230px;
 }
 
 .card .text6{
   position: absolute;
   margin-left: 20px;
   margin-right: 20px;
-  margin-top: 240px;
+  margin-top: 280px;
 }
