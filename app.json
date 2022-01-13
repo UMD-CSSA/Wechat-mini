@@ -67,7 +67,7 @@
         "iconPath": "images/shortcuts_default.png",
         "selectedIconPath": "images/shortcuts_selected.png"},
       { "pagePath": "pages/join_us/join_us",
-        "text": "加入我们",
+        "text": "联系我们",
         "iconPath": "images/join_us_default.png",
         "selectedIconPath": "images/join_us_selected.png"}
     ]

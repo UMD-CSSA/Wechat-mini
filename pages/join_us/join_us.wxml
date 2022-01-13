@@ -1,3 +1,12 @@
-<view>
-  <image src="pages/join_us/images/CSSA logo.png"></image>
+<view class='logo'>
+  <image src="/pages/join_us/images/CSSA logo.png"></image>
+</view>
+
+<view class="card">
+  <view class="text1"><text class="content">CSSA客服微信号：UMDCSSACS</text></view>
+  <view class="text2"><text class="content">CSSA官网：https://umd-cssa.org/</text></view>
+  <view class="text3"><text class="content">Email：umcpcssamsc@gmail.com</text></view>
+  <view class="text4"><text class="content">ins：cssaofumd</text></view>
+  <view class="text5"><text class="content">Bilibili：</text></view>
+  <view class="text6"><text class="content">抖音：</text></view>
 </view>

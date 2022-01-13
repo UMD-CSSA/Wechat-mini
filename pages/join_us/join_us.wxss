@@ -1,0 +1,68 @@
+.logo{
+  display: flex;
+  justify-content: center;
+  margin-top: 20%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 10%;
+}
+
+image{
+  width: 150px;
+  height: 150px;
+}
+
+.card{
+  background-color: #E03A3E;
+  opacity: 50%;
+  margin-left: 15%;
+  margin-right: 15%;
+  height: 340px;
+  border-radius: 15px;
+  position: relative;
+}
+
+.card .content{
+  font-size: small;
+}
+
+.card .text1{
+  position: absolute;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 40px;
+}
+.card .text2{
+  position: absolute;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 80px;
+}
+
+.card .text3{
+  position: absolute;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 120px;
+}
+
+.card .text4{
+  position: absolute;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 160px;
+}
+
+.card .text5{
+  position: absolute;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 200px;
+}
+
+.card .text6{
+  position: absolute;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 240px;
+}
