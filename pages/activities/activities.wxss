@@ -1,6 +1,6 @@
 /* pages/activities/activities.wxss */
 .btn-area .title {
-  background-color: cornsilk;
+  background-color: rgb(255, 233, 145);
   text-align: left;
   color: black;
   width: 90%;
