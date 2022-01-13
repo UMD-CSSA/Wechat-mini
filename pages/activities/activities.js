@@ -1,6 +1,8 @@
 Page({
   trailer1(){
-    url: 'pages/activities/Trailers/trailer1'
+    wx.navigateTo({
+      url: './Trailers/trailer1'
+    })
   },
   trailer2(){
     url: 'pages/activities/Trailers/trailer2'
