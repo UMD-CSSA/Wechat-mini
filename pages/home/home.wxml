@@ -5,15 +5,16 @@
   </button>
 </view>
 
-<!-- <view class="swiper-container" style="margin: 6%;">
- <swiper autoplay="auto" interval="3000" duration="500" current="{{swiperCurrent}}" bindchange="swiperChange" class="swiper" indicator-dots="true">
-  <block wx:for="{{slider}}" wx:key="unique">
-   <swiper-item>
-    <image src="{{ item.img }}" class="img" mode="aspectFill"></image>
-   </swiper-item>
-  </block>
- </swiper>
-</view> -->
+<view class="swiper-container" style="margin: 6%;">
+  <swiper class="swiper" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{duration}}" current="{{swiperCurrent}}" bindchange="swiperChange">
+    <block wx:for="{{imgUrls}}" wx:key="unique">
+      <swiper-item>
+        <image src="{{item}}" class="img" bindtap="swipclick"/>    
+        <video src="{{item}}"></video>
+     </swiper-item>
+    </block>
+  </swiper>
+</view>
 
 <view class='buttons'>
     <button class='button' style="width: 48%; height: 50%; float: left" bindtap="manual">
@@ -65,15 +66,4 @@
       <view class="text"><text>暂无招新计划</text></view>
     </view>
   </view>
-</view>
-
-<view>
-  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{duration}}" current="{{swiperCurrent}}" bindchange="swiperChange" class="swiper">
-    <block wx:for="{{imgUrls}}" wx:key="unique">
-      <swiper-item>
-        <image src="{{item}}" class="img" bindtap="swipclick"/>    
-        <video src="{{item}}"></video>
-     </swiper-item>
-    </block>
-  </swiper>
 </view>

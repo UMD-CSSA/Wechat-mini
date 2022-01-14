@@ -1,2 +1,2 @@
 <!--pages/home/news/news1.wxml-->
-<web-view src=''></web-view>
+<web-view src='https://mp.weixin.qq.com/s?__biz=Mzg5NjY2ODg3MQ==&mid=2247497678&idx=1&sn=1064da429dec4e27da3d5659c3a62b77&chksm=c07f3266f708bb70d5bf87fbdf76e6d73575ff79e088cf3df09a183d7d8ffdeaffa5ec6c22ed&token=1794852101&lang=zh_CN#rd'></web-view>
