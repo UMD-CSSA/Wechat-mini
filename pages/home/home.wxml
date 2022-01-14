@@ -47,6 +47,22 @@
     <view><text class='policy' bindtap="policy4">【21/08/03】2021赴美返校隔离要求</text></view>
     <view><text class='policy' bindtap="policy5">【21/07/13】2021年赴美核酸检测指南</text></view>
   </view>
-  <view class="{{selected1?'show':'hidden'}}">for activity1</view>
-  <view class="{{selected2?'show':'hidden'}}">for activity2</view>
+  <view class="{{selected1?'show':'hidden'}}">
+    <view class='trailer' bindtap="passed1">
+      <image class='trailer_bg' src="images/meal1.png"></image>
+      <view class='title_case'>
+        <text class='title'>辣道</text>
+      </view>
+    </view>
+  </view>
+  <view class="{{selected2?'show':'hidden'}}">
+    <view class="cssa">
+      <button style="width: 90%;">CSSA</button>
+      <view class="text"><text>暂无招新计划</text></view>
+    </view>
+    <view class="club">
+      <button style="width: 90%;">文体团</button>
+      <view class="text"><text>暂无招新计划</text></view>
+    </view>
+  </view>
 </view>
