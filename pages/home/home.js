@@ -68,27 +68,27 @@ Page({
 
   policy1(){
     wx.navigateTo({
-      url: 'url',
+      url: 'policies/policy1',
     })
   },
   policy2(){
     wx.navigateTo({
-      url: 'url',
+      url: 'policies/policy2',
     })
   },
   policy3(){
     wx.navigateTo({
-      url: 'url',
+      url: 'policies/policy3',
     })
   },
   policy4(){
     wx.navigateTo({
-      url: 'url',
+      url: 'policies/policy4',
     })
   },
   policy5(){
     wx.navigateTo({
-      url: 'url',
+      url: 'policies/policy5',
     })
   },
 
