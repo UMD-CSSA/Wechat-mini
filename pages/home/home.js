@@ -23,21 +23,22 @@ Page({
     })
   },
 
-  data: {
-    slider: [
-      {'img':'images/新闻1.jpeg'},
-      {'img':'images/新闻2.jpeg'},
-      {'img':'images/新闻3.png'},
-      {'img':'images/新闻4.jpeg'},
-      {'img':'images/新闻5.jpeg'}
-    ],
-    swiperCurrent: 0,
-  },
-  swiperChange: function(e){
-    this.setData({
-      swiperCurrent: e.detail.current
-    })
-  },
+  // data: {
+  //   slider: [
+  //     {'img':'/images/news1.jpeg'},
+  //     {'img':'/images/news2.jpeg'},
+  //     {'img':'/images/news3.png'},
+  //     {'img':'/images/news4.jpeg'},
+  //     {'img':'/images/news5.jpeg'}
+  //   ],
+  //   swiperCurrent: 0,
+  // },
+
+  // swiperChange: function(e){
+  //   this.setData({
+  //     swiperCurrent: e.detail.current
+  //   })
+  // },
 
   data: {
     selected: true,
@@ -147,5 +148,52 @@ Page({
    */
   onShareAppMessage: function () {
   
-  }
+  },
+
+  data: {
+    swiperCurrent: 0,//当前所在页面的 index
+    indicatorDots: true, //是否显示面板指示点
+    autoplay: true, //是否自动切换
+    interval: 3000, //自动切换时间间隔,3s
+    duration: 1000, //滑动动画时长1s
+    circular: true, //是否采用衔接滑动
+    imgUrls: [//图片路径(可以是本地路径，也可以是图片链接)
+      '/pages/home/images/news1.jpeg',
+      '/pages/home/images/news2.jpeg',
+      '/pages/home/images/news3.png',
+      '/pages/home/images/news4.jpeg',
+      '/pages/home/images/news5.jpeg'
+    ],
+
+    links: [//点击图片之后跳转的路径
+      'https://mp.weixin.qq.com/s?__biz=Mzg5NjY2ODg3MQ==&mid=2247497678&idx=1&sn=1064da429dec4e27da3d5659c3a62b77&chksm=c07f3266f708bb70d5bf87fbdf76e6d73575ff79e088cf3df09a183d7d8ffdeaffa5ec6c22ed&token=1794852101&lang=zh_CN#rd',
+      '../personal/personal',
+      '../personal/personal',
+      '../personal/personal',
+      '../personal/personal',
+    ] 
+  },
+
+  //轮播图的切换事件
+  swiperChange: function (e) {
+    this.setData({
+      swiperCurrent: e.detail.current
+    })
+  },
+
+  //点击指示点切换事件
+  chuangEvent: function (e) {
+    this.setData({
+      swiperCurrent: e.currentTarget.id
+    })
+  },
+
+  //点击图片触发事件
+  swipclick: function (e) {
+    console.log(this.data.swiperCurrent);
+    wx.switchTab({
+      url: this.data.links[this.data.swiperCurrent]
+    })
+  },
 })
+

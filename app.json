@@ -49,7 +49,12 @@
     "pages/home/policies/policy2",
     "pages/home/policies/policy3",
     "pages/home/policies/policy4",
-    "pages/home/policies/policy5"
+    "pages/home/policies/policy5",
+    "pages/home/news/news1",
+    "pages/home/news/news2",
+    "pages/home/news/news3",
+    "pages/home/news/news4",
+    "pages/home/news/news5"
   ],
   "window":{
     "backgroundTextStyle":"light",
