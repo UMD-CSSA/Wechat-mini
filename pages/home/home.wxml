@@ -35,16 +35,14 @@
 </view>
 
 <view>
-  <view class='tab_container'>
-    <view 
-      class="default {{type=='policy'? 'policy-active':''}}"
-      bindtap="handleType" data-type="policy">政策敲黑板</view>
-    <view 
-      class="default {{type=='meal'? 'meal-active':''}}"
-      bindtap="handleType" data-type="meal">小龟吃华府</view>
-    <view 
-      class="default {{type=='recruit'? 'recruit-active':''}}"
-      bindtap="handleType" data-type="recruit">招新</view>
+  <view class="nav">
+    <view class="{{selected?'red':'default'}}" bindtap="selected">政策敲黑板</view>
+    <view class="{{selected1?'red':'default'}}" bindtap="selected1">小龟吃华府</view>
+    <view class="{{selected2?'red':'default'}}" bindtap="selected2">招新</view>
   </view>
+  <view class="{{selected?'show':'hidden'}}">
+    
+  </view>
+  <view class="{{selected1?'show':'hidden'}}">for activity1</view>
+  <view class="{{selected2?'show':'hidden'}}">for activity2</view>
 </view>
-
