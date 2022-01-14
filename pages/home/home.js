@@ -1,13 +1,13 @@
 Page({
   news(){
     wx.navigateTo({
-      url: '重要通知',
+      url: 'announcement',
     })
   }, 
   
   manual(){
     wx.navigateTo({
-      url: '新生手册',
+      url: 'manual',
     })
   },
 
@@ -19,7 +19,7 @@ Page({
 
   cssa(){
     wx.navigateTo({
-      url: 'CSSA构成/CSSA构成',
+      url: 'cssa_struct/cssa_struct',
     })
   },
 
