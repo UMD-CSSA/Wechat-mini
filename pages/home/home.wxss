@@ -45,14 +45,14 @@
 
 .swiper-container{
   position: relative;
-  margin-left: 5%; 
-  margin-right: 5%;
+  margin-left: 7%; 
+  margin-right: 7%;
  }
-.swiper {
+ .swiper-container .swiper {
   width: 640rpx;
   height: 360rpx;
 }
-.swiper-item .image {
+.swiper-container .swiper .img {
   width: 100%;
   height: 100%;
 }
@@ -98,6 +98,8 @@
 
 .policy{
   text-decoration: underline;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 .trailer{

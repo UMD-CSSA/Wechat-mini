@@ -75,7 +75,7 @@ Page({
     selected: true,
     selected1: false,
     selected2:false,
-    
+
     swiperCurrent: 0,//当前所在页面的 index
     indicatorDots: true, //是否显示面板指示点
     autoplay: true, //是否自动切换
@@ -85,9 +85,9 @@ Page({
     imgUrls: [//图片路径(可以是本地路径，也可以是图片链接)
       '/pages/home/images/news1.jpeg',
       '/pages/home/images/news2.jpeg',
-      '/pages/home/images/news3.png',
+      '/pages/home/images/news3.jpeg',
       '/pages/home/images/news4.jpeg',
-      '/pages/home/images/news5.jpeg'
+      '/pages/home/images/news5.png'
     ],
 
     links: [//点击图片之后跳转的路径
