@@ -44,7 +44,12 @@
     "pages/activities/Trailers/trailer3",
     "pages/activities/Passed/passed1",
     "pages/activities/Passed/passed2",
-    "pages/activities/Passed/passed3"
+    "pages/activities/Passed/passed3",
+    "pages/home/policies/policy1",
+    "pages/home/policies/policy2",
+    "pages/home/policies/policy3",
+    "pages/home/policies/policy4",
+    "pages/home/policies/policy5"
   ],
   "window":{
     "backgroundTextStyle":"light",

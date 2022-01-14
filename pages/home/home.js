@@ -66,6 +66,33 @@ Page({
     })
   },
 
+  policy1(){
+    wx.navigateTo({
+      url: 'url',
+    })
+  },
+  policy2(){
+    wx.navigateTo({
+      url: 'url',
+    })
+  },
+  policy3(){
+    wx.navigateTo({
+      url: 'url',
+    })
+  },
+  policy4(){
+    wx.navigateTo({
+      url: 'url',
+    })
+  },
+  policy5(){
+    wx.navigateTo({
+      url: 'url',
+    })
+  },
+
+
   /**
    * 生命周期函数--监听页面加载
    */

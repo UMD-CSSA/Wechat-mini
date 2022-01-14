@@ -86,12 +86,18 @@
 
 .show{
   display:block;
-  text-align:center;
-  line-height:200rpx;
+  text-align:left;
+  line-height:80rpx;
+  margin-left: 10px;
 }
 
 .hidden{
   display:none;
   text-align:center;
-  line-height:200px;
+  line-height:80rpx;
+}
+
+.policy{
+  text-decoration: underline;
+  
 }

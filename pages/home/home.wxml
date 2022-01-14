@@ -41,7 +41,11 @@
     <view class="{{selected2?'red':'default'}}" bindtap="selected2">招新</view>
   </view>
   <view class="{{selected?'show':'hidden'}}">
-    
+    <view><text class='policy' bindtap="policy1">【22/01/10】达拉斯直飞赴华航班行前检测攻略</text></view>
+    <view><text class='policy' bindtap="policy2">【21/08/12】UMD留学生赴美新冠疫苗攻略</text></view>
+    <view><text class='policy' bindtap="policy3">【21/08/04】上海市最新疫情防控政策</text></view>
+    <view><text class='policy' bindtap="policy4">【21/08/03】2021赴美返校隔离要求</text></view>
+    <view><text class='policy' bindtap="policy5">【21/07/13】2021年赴美核酸检测指南</text></view>
   </view>
   <view class="{{selected1?'show':'hidden'}}">for activity1</view>
   <view class="{{selected2?'show':'hidden'}}">for activity2</view>
