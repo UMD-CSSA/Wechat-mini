@@ -9,7 +9,7 @@
   <swiper class="swiper" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{duration}}" current="{{swiperCurrent}}" bindchange="swiperChange">
     <block wx:for="{{imgUrls}}" wx:key="unique">
       <swiper-item>
-        <image class="img" src="{{item}}" bindtap="swipclick" mode="widthFix"/>    
+        <image class="img" src="{{item}}" bindtap="swipclick" mode="aspectFill"/>    
         <video src="{{item}}"></video>
      </swiper-item>
     </block>
@@ -21,17 +21,17 @@
       <image class='buttonImg' src="../../images/新生手册.png"></image>
       <text class="buttonText">新生系列</text>
     </button>
-    <button class='button' style="width: 48%; height: 50%; float: right">
+    <button class='button' style="width: 48%; height: 50%; float: right" bindtap="honggui">
       <image class='buttonImg' src="../../images/红龟卡.png"></image>
       <text class="buttonText">红龟卡</text>
     </button>
-    <button class='button' style="width: 48%; height: 50%; float: left" bindtap="renting">
-      <image class='buttonImg' src="../../images/周边租房.png"></image>
-      <text class="buttonText">周边租房</text>
-    </button>
-    <button class='button' style="width: 48%; height: 50%; float: right" bindtap="cssa">
+    <button class='button' style="width: 48%; height: 50%; float: left" bindtap="cssa">
       <image class='buttonImg' src="../../images/CSSA构成.png"></image>
       <text class="buttonText">CSSA构成</text>
+    </button>
+    <button class='button' style="width: 48%; height: 50%; float: right" bindtap="club">
+      <image class='buttonImg' src="../../images/周边租房.png"></image>
+      <text class="buttonText">文体团</text>
     </button>
 </view>
 

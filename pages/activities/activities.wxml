@@ -37,19 +37,19 @@
   <view class='trailer' bindtap="passed1">
     <image class='trailer_bg' src="/pages/activities/images/Passed1.png"></image>
     <view class='title_case'>
-      <text class='title'>2022虎年DC七校元宵晚会</text>
+      <text class='title'>期末送温暖</text>
     </view>
   </view>
   <view class='trailer' bindtap="passed2">
     <image class='trailer_bg' src="/pages/activities/images/Passed2.jpeg"></image>
     <view class='title_case'>
-      <text class='title'>2022虎年DC七校元宵晚会</text>
+      <text class='title'>Moon Mic 校园歌手决赛结果</text>
     </view>
   </view>
   <view class='trailer' bindtap="passed3">
     <image class='trailer_bg' src="/pages/activities/images/Passed3.jpeg"></image>
     <view class='title_case'>
-      <text class='title'>2022虎年DC七校元宵晚会</text>
+      <text class='title'>2021秋季游园会回顾</text>
     </view>
   </view>
 </view>

@@ -4,20 +4,23 @@ Page({
       url: 'announcement',
     })
   }, 
-  
+
   manual(){
     wx.navigateTo({
       url: 'manual',
     })
   },
-
-  renting(){
-    wx.navigateToMiniProgram({
-      appId: 'wxdfc5ddf39f121903',
+  honggui(){
+    wx.navigateTo({
+      url: 'honggui',
     })
   },
-
   cssa(){
+    wx.navigateTo({
+      url: 'cssa_struct/cssa_struct',
+    })
+  },
+  club(){
     wx.navigateTo({
       url: 'cssa_struct/cssa_struct',
     })

@@ -1,0 +1,2 @@
+<!--pages/home/honggui.wxml-->
+<web-view src="https://mp.weixin.qq.com/s?__biz=Mzg5NjY2ODg3MQ==&mid=2247497678&idx=2&sn=432cef4d413c5702a1a8ac4f693322dc&chksm=c07f3266f708bb70fa0bcf5602a35f51b862254c34961367d00fffe18ebf32c3e243dfa1bd9d&token=1794852101&lang=zh_CN#rd"></web-view>

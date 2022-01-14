@@ -168,7 +168,7 @@ Page({
 
 
     data:{
-        b1Hidden: true,
+        b1Hidden: false,
         b2Hidden: true,
         b3Hidden: true,
         b4Hidden: true,
