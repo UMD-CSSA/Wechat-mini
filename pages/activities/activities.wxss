@@ -9,10 +9,10 @@
 
 .trailer{
   margin-top: 2%;
-  margin-left: 5%; 
-  margin-right: 5%; 
+  margin-left: 6%; 
+  margin-right: 6%; 
   height: 210px;
-  width: 350px;
+  width: 88%;
   position:relative;
 }
 
