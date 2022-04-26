@@ -1,2 +1,14 @@
 <!--pages/home/shortcuts/umd_home/Academic_Calendar.wxml-->
-<text>pages/home/shortcuts/umd_home/Academic_Calendar.wxml</text>
+<view class='title'>
+  <text>学年安排</text>
+</view>
+<view bindtap="copyText" data-text="{{academic}}" class='website'>
+  https://provost.umd.edu/calendar
+</view>
+
+<view class='title'>
+  <text>校园活动</text>
+</view>
+<view bindtap="copyText" data-text="{{campus}}" class='website'>
+  http://calendar.umd.edu/
+</view>

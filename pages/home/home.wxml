@@ -1,10 +1,3 @@
-<view class="announcement">
-  <button style="background-color:moccasin; width: 100%; height: 50rpx; padding: 0;">
-    <image src="/pages/home/images/通知.png" class="announce_img"></image>
-    <text bindtap="news" class="news">提醒在美中国公民和机构注意美社会治安和反恐形势</text>
-  </button>
-</view>
-
 <view class="swiper-container" style="margin: 6%;">
   <swiper class="swiper" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{duration}}" current="{{swiperCurrent}}" bindchange="swiperChange">
     <block wx:for="{{imgUrls}}" wx:key="unique">
@@ -19,7 +12,7 @@
 <view class='buttons'>
     <button class='button' style="width: 48%; height: 50%; float: left" bindtap="manual">
       <image class='buttonImg' src="../../images/新生手册.png"></image>
-      <text class="buttonText">新生系列</text>
+      <text class="buttonText">校园快捷键</text>
     </button>
     <button class='button' style="width: 48%; height: 50%; float: right" bindtap="honggui">
       <image class='buttonImg' src="../../images/红龟卡.png"></image>

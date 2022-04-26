@@ -1,1 +1,8 @@
 /* pages/home/shortcuts/umd_home/Campus_Map.wxss */
+.website {
+  margin: 5%;
+  padding: 2%;
+  border: solid thin rgb(202, 202, 202);
+  background-color: rgb(241, 241, 241);
+  border-radius: 5px;
+}

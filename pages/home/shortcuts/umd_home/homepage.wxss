@@ -1,1 +1,11 @@
 /* pages/home/shortcuts/umd_home/homepage.wxss */
+.website {
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 2%;
+  border: solid thin rgb(202, 202, 202);
+  background-color: rgb(241, 241, 241);
+  border-radius: 5px;
+}
