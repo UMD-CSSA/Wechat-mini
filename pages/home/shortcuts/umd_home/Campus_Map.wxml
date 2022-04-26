@@ -1,2 +1,33 @@
 <!--pages/home/shortcuts/umd_home/Campus_Map.wxml-->
-<text>pages/home/shortcuts/umd_home/Campus_Map.wxml</text>
+<view class='title'>
+  <text>校园地图</text>
+</view>
+<view bindtap="copyText" data-text="{{map}}" class='website'>
+  https://maps.umd.edu/map/
+</view>
+<view class='content'>
+  <text>校园最详细的地图</text>
+</view>
+
+<view class='title'>
+  <text>Shuttle-UM</text>
+</view>
+<view bindtap="copyText" data-text="{{shuttle}}" class='website'>
+  https://transportation.umd.edu/shuttle-um
+</view>
+<view class='content'>
+  <text>马大校车为在校学生最常用的交通方式，其网络基本涵盖全马大校园及其周边所有地点。学生可凭学生证免费搭乘。
+  注意，节假日以及周末有部分班次不开。</text>
+</view>
+
+<view class='title'>
+  <text>Nite-ride</text>
+</view>
+<view bindtap="copyText" data-text="{{nite}}" class='website'>
+  https://transportation.umd.edu/shuttle-um/nite-ride
+</view>
+<view class='content'>
+  <text>学校公交系统为Shuttle-UM线路所不涵盖
+的区域提供的服务。
+每天下午5:30至凌晨2:30，学生可以通过TransLoc Rider App 或拨打 (301) 314-6483（该号码印在学生ID背面）在指定区域上下车，而在凌晨2:30至早晨7:30，学生可以在学校任意位置使用该服务。</text>
+</view>

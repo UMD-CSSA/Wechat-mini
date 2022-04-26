@@ -9,3 +9,16 @@
   background-color: rgb(241, 241, 241);
   border-radius: 5px;
 }
+
+.title {
+  font-size: larger;
+  font-weight: bold;
+  margin-top: 5%;
+  padding-left: 5%;
+}
+
+.content {
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-bottom: 2%;
+}

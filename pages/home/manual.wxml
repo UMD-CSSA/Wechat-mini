@@ -6,8 +6,8 @@
             <view hidden="{{b1Hidden}}" style="justify-content: center; margin-bottom: 15px">
                 <view class="flex-wrp" style="width: 100%; flex-direction: column; display: flex; justify-content: center">
                     <button style="width: 85%; justify-content: center; margin-bottom: 5px; background-color: #fcf4cf;" bindtap="主页">主页</button>
-                    <button style="width: 85%; justify-content: center; margin-bottom: 5px" bindtap="校历">校历 Academic Calendar</button>
-                    <button style="width: 85%; justify-content: center; margin-bottom: 5px" bindtap="地图">地图 Campus Map</button>
+                    <button style="width: 85%; justify-content: center; margin-bottom: 5px" bindtap="校历">日历 Calendar</button>
+                    <button style="width: 85%; justify-content: center; margin-bottom: 5px" bindtap="地图">地图及出行 Map</button>
                 </view>
             </view>
 

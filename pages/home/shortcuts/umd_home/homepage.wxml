@@ -1,4 +1,7 @@
 <!--pages/home/shortcuts/umd_home/homepage.wxml-->
+<view class='title'>
+  <text>校园主页</text>
+</view>
 <view bindtap="copyText" data-text="{{homepage}}" class='website'>
   http://umd.edu
 </view>
