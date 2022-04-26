@@ -1,2 +1,0 @@
-<!--pages/shortcuts/校园官网/Campus_Map.wxml-->
-<web-view src='https://maps.umd.edu/map/'></web-view>

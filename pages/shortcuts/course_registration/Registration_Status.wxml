@@ -1,2 +1,0 @@
-<!--pages/shortcuts/选课相关/Registrtion_Status.wxml-->
-<web-view src='https://app.testudo.umd.edu/main/regAppt'></web-view>

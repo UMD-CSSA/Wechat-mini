@@ -1,2 +1,0 @@
-<!--pages/shortcuts/选课相关/Schdule_of_Classes.wxml-->
-<web-view src='https://app.testudo.umd.edu/soc/'></web-view>
