@@ -1,2 +1,10 @@
 <!--pages/home/shortcuts/ISSS/appointment.wxml-->
-<text>pages/home/shortcuts/ISSS/appointment.wxml</text>
+<view class='title'>
+  <text>ISSS Appointment</text>
+</view>
+<view bindtap="copyText" data-text="{{appointment}}" class='website'>
+  (点击复制网址）
+</view>
+<view class='content'>
+  <text></text>
+</view>

@@ -1,2 +1,10 @@
 <!--pages/home/shortcuts/dining_and_housing/oncampus.wxml-->
-<text>pages/home/shortcuts/dining_and_housing/oncampus.wxml</text>
+<view class='title'>
+  <text>On-Campus住宿</text>
+</view>
+<view bindtap="copyText" data-text="{{on_campus}}" class='website'>
+  (点击复制网址）
+</view>
+<view class='content'>
+  <text>校内住宿</text>
+</view>

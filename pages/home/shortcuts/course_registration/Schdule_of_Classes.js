@@ -5,7 +5,23 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    Testudo: "https://www.testudo.umd.edu/",
+    Schedule_of_classes: "https://app.testudo.umd.edu/soc/",
+  },
+  copyText: function(e){
+    console.log(e)
+    wx.setClipboardData({
+      data: e.currentTarget.dataset.text,
+      success: function (res) {
+        wx.getClipboardData({
+          success: function (res) {
+            wx.showToast({
+              title: '复制成功',
+            })
+          },
+        })
+      }
+    })
   },
 
   /**

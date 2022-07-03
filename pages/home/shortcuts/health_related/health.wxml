@@ -1,2 +1,10 @@
 <!--pages/home/shortcuts/health_related/health.wxml-->
-<text>pages/home/shortcuts/health_related/health.wxml</text>
+<view class='title'>
+  <text>Health Center</text>
+</view>
+<view bindtap="copyText" data-text="{{health}}" class='website'>
+  (点击复制网址）
+</view>
+<view class='content'>
+  <text></text>
+</view>

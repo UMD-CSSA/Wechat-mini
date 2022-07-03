@@ -1,2 +1,10 @@
 <!--pages/home/shortcuts/course_registration/Student_Schedule.wxml-->
-<text>pages/home/shortcuts/course_registration/Student_Schedule.wxml</text>
+<view class='title'>
+  <text>Student Schedule</text>
+</view>
+<view bindtap="copyText" data-text="{{Student_Schedule}}" class='website'>
+  (点击复制网址）
+</view>
+<view class='content'>
+  <text>学生课表，在选课完毕后可在此页面查看和打印自己的schedule</text>
+</view>

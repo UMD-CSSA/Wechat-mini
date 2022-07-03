@@ -1,2 +1,10 @@
 <!--pages/home/shortcuts/course_registration/Registration_Status.wxml-->
-<text>pages/home/shortcuts/course_registration/Registration_Status.wxml</text>
+<view class='title'>
+  <text>Registration Status</text>
+</view>
+<view bindtap="copyText" data-text="{{Registration_Status}}" class='website'>
+  (点击复制网址）
+</view>
+<view class='content'>
+  <text>预约/注册状态查询网站</text>
+</view>

@@ -1,2 +1,10 @@
 <!--pages/home/shortcuts/health_related/covid.wxml-->
-<text>pages/home/shortcuts/health_related/covid.wxml</text>
+<view class='title'>
+  <text>Coivd related information</text>
+</view>
+<view bindtap="copyText" data-text="{{covid}}" class='website'>
+  (点击复制网址）
+</view>
+<view class='content'>
+  <text></text>
+</view>

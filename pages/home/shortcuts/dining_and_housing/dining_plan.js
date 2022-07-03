@@ -5,7 +5,22 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    dining_plan: "https://dining.umd.edu/student-dining-plans",
+  },
+  copyText: function(e){
+    console.log(e)
+    wx.setClipboardData({
+      data: e.currentTarget.dataset.text,
+      success: function (res) {
+        wx.getClipboardData({
+          success: function (res) {
+            wx.showToast({
+              title: '复制成功',
+            })
+          },
+        })
+      }
+    })
   },
 
   /**

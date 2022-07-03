@@ -1,2 +1,10 @@
 <!--pages/home/shortcuts/course_registration/Waitlist.wxml-->
-<text>pages/home/shortcuts/course_registration/Waitlist.wxml</text>
+<view class='title'>
+  <text>Waitlist Check-in</text>
+</view>
+<view bindtap="copyText" data-text="{{Waitlist}}" class='website'>
+  (点击复制网址）
+</view>
+<view class='content'>
+  <text>当一门课程无空位时，仍然可以选择将自己加入候补列表进行排队，当前窗口用以进行waitlist签到，若在要求日期内没有check-in，会被视为自动放弃</text>
+</view>

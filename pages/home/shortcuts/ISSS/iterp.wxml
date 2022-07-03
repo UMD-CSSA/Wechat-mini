@@ -1,2 +1,10 @@
 <!--pages/home/shortcuts/ISSS/iterp.wxml-->
-<text>pages/home/shortcuts/ISSS/iterp.wxml</text>
+<view class='title'>
+  <text>ITerp</text>
+</view>
+<view bindtap="copyText" data-text="{{iterp}}" class='website'>
+  (点击复制网址）
+</view>
+<view class='content'>
+  <text></text>
+</view>

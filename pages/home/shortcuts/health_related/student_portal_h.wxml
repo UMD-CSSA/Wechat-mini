@@ -1,2 +1,10 @@
 <!--pages/home/shortcuts/health_related/student_portal_h.wxml-->
-<text>pages/home/shortcuts/health_related/student_portal_h.wxml</text>
+<view class='title'>
+  <text>Student Portal(Health)</text>
+</view>
+<view bindtap="copyText" data-text="{{student_portal_h}}" class='website'>
+  (点击复制网址）
+</view>
+<view class='content'>
+  <text></text>
+</view>

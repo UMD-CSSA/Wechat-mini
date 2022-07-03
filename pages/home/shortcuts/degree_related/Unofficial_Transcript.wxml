@@ -1,2 +1,10 @@
 <!--pages/home/shortcuts/degree_related/Unofficial_Transcript.wxml-->
-<text>pages/home/shortcuts/degree_related/Unofficial_Transcript.wxml</text>
+<view class='title'>
+  <text>Unofficial Transcript</text>
+</view>
+<view bindtap="copyText" data-text="{{Unoffcial_Transcript}}" class='website'>
+  (点击复制网址）
+</view>
+<view class='content'>
+  <text>生成非官方成绩单</text>
+</view>

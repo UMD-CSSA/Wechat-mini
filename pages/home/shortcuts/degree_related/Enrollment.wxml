@@ -1,2 +1,10 @@
 <!--pages/home/shortcuts/degree_related/Enrollment.wxml-->
-<text>pages/home/shortcuts/degree_related/Enrollment.wxml</text>
+<view class='title'>
+  <text>Enrollment</text>
+</view>
+<view bindtap="copyText" data-text="{{Enrollment}}" class='website'>
+  (点击复制网址）
+</view>
+<view class='content'>
+  <text></text>
+</view>

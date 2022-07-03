@@ -1,2 +1,10 @@
 <!--pages/home/shortcuts/degree_related/Transcript.wxml-->
-<text>pages/home/shortcuts/degree_related/Transcript.wxml</text>
+<view class='title'>
+  <text>Transcript</text>
+</view>
+<view bindtap="copyText" data-text="{{Transcript}}" class='website'>
+  (点击复制网址）
+</view>
+<view class='content'>
+  <text>定制一份官方成绩单</text>
+</view>

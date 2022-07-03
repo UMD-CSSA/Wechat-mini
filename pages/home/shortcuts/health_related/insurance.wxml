@@ -1,2 +1,10 @@
 <!--pages/home/shortcuts/health_related/insurance.wxml-->
-<text>pages/home/shortcuts/health_related/insurance.wxml</text>
+<view class='title'>
+  <text>Insurance Plan</text>
+</view>
+<view bindtap="copyText" data-text="{{insurance}}" class='website'>
+  (点击复制网址）
+</view>
+<view class='content'>
+  <text>保险计划（SHIP）</text>
+</view>

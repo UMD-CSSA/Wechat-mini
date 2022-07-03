@@ -1,2 +1,10 @@
 <!--pages/home/shortcuts/dining_and_housing/dining.wxml-->
-<text>pages/home/shortcuts/dining_and_housing/dining.wxml</text>
+<view class='title'>
+  <text>dining主页</text>
+</view>
+<view bindtap="copyText" data-text="{{dining}}" class='website'>
+  (点击复制网址）
+</view>
+<view class='content'>
+  <text>Maryland Dining</text>
+</view>

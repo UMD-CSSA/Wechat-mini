@@ -1,1 +1,23 @@
 /* pages/home/shortcuts/dining_and_housing/student_portal_d.wxss */
+.website {
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 2%;
+  border: solid thin rgb(202, 202, 202);
+  background-color: rgb(241, 241, 241);
+  border-radius: 5px;
+}
+.title {
+  font-size: larger;
+  font-weight: bold;
+  margin-top: 5%;
+  padding-left: 5%;
+}
+
+.content {
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-bottom: 2%;
+}

@@ -1,2 +1,10 @@
 <!--pages/home/shortcuts/dining_and_housing/student_portal_rl.wxml-->
-<text>pages/home/shortcuts/dining_and_housing/student_portal_rl.wxml</text>
+<view class='title'>
+  <text>Student Portal(Resident Life)</text>
+</view>
+<view bindtap="copyText" data-text="{{student_portal_rl}}" class='website'>
+  (点击复制网址）
+</view>
+<view class='content'>
+  <text></text>
+</view>

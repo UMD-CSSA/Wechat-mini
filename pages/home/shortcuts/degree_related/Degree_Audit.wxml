@@ -1,2 +1,10 @@
 <!--pages/home/shortcuts/degree_related/Degree_Audit.wxml-->
-<text>pages/home/shortcuts/degree_related/Degree_Audit.wxml</text>
+<view class='title'>
+  <text>Degree Audit</text>
+</view>
+<view bindtap="copyText" data-text="{{Degree_Audit}}" class='website'>
+  (点击复制网址）
+</view>
+<view class='content'>
+  <text>学位审计网站，可查询自己需要哪些课程才可获得学位</text>
+</view>

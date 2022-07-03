@@ -1,2 +1,10 @@
 <!--pages/home/shortcuts/school_facilities/gym.wxml-->
-<text>pages/home/shortcuts/school_facilities/gym.wxml</text>
+<view class='title'>
+  <text>Gym主页</text>
+</view>
+<view bindtap="copyText" data-text="{{gym}}" class='website'>
+  (点击复制网址）
+</view>
+<view class='content'>
+  <text></text>
+</view>

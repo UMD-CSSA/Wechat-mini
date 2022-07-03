@@ -5,9 +5,23 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    off_campus: "https://ochdatabase.umd.edu/?gclid=CjwKCAjw2f-VBhAsEiwAO4lNeJy_yAfffTHDRr-4Ajo2WrtkmxVjvbgrbQoDAOKYp5hVUZnMRnSR7xoC894QAvD_BwE&gclsrc=aw.ds",
   },
-
+  copyText: function(e){
+    console.log(e)
+    wx.setClipboardData({
+      data: e.currentTarget.dataset.text,
+      success: function (res) {
+        wx.getClipboardData({
+          success: function (res) {
+            wx.showToast({
+              title: '复制成功',
+            })
+          },
+        })
+      }
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

@@ -1,2 +1,10 @@
 <!--pages/home/shortcuts/course_registration/Schdule_of_Classes.wxml-->
-<text>pages/home/shortcuts/course_registration/Schdule_of_Classes.wxml</text>
+<view class='title'>
+  <text>Schdule of Classes</text>
+</view>
+<view bindtap="copyText" data-text="{{Testudo}}" class='website'>
+  (点击复制网址）
+</view>
+<view class='content'>
+  <text>核心功能，包含所有课程与大部分campus service相关信息</text>
+</view>

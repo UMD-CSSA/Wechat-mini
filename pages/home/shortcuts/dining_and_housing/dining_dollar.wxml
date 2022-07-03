@@ -1,2 +1,11 @@
 <!--pages/home/shortcuts/dining_and_housing/dining_dollar.wxml-->
-<text>pages/home/shortcuts/dining_and_housing/dining_dollar.wxml</text>
+<view class='title'>
+  <text>Dining Dollar</text>
+</view>
+<view bindtap="copyText" data-text="{{dining_dollar}}" class='website'>
+  (点击复制网址）
+</view>
+<view class='content'>
+  <text>存在学生证中的余额，在选择dining plan时附带，无法充值/转存，余额在学期结束后归零
+  可用于校园内各大商铺（主要是餐馆和便利店）</text>
+</view>

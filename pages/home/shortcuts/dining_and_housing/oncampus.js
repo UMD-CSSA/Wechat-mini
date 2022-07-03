@@ -5,7 +5,22 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    on_campus: "https://www.testudo.umd.edu/",
+  },
+  copyText: function(e){
+    console.log(e)
+    wx.setClipboardData({
+      data: e.currentTarget.dataset.text,
+      success: function (res) {
+        wx.getClipboardData({
+          success: function (res) {
+            wx.showToast({
+              title: '复制成功',
+            })
+          },
+        })
+      }
+    })
   },
 
   /**

@@ -1,2 +1,10 @@
 <!--pages/home/shortcuts/dining_and_housing/terripin_express.wxml-->
-<text>pages/home/shortcuts/dining_and_housing/terripin_express.wxml</text>
+<view class='title'>
+  <text>Terripin Express</text>
+</view>
+<view bindtap="copyText" data-text="{{terripin_express}}" class='website'>
+  (点击复制网址）
+</view>
+<view class='content'>
+  <text></text>
+</view>

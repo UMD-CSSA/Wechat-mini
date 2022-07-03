@@ -5,7 +5,22 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    iterp: "https://globalmaryland.umd.edu/offices/international-student-scholar-services/logging-iterp",
+  },
+  copyText: function(e){
+    console.log(e)
+    wx.setClipboardData({
+      data: e.currentTarget.dataset.text,
+      success: function (res) {
+        wx.getClipboardData({
+          success: function (res) {
+            wx.showToast({
+              title: '复制成功',
+            })
+          },
+        })
+      }
+    })
   },
 
   /**

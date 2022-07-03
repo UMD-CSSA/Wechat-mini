@@ -1,2 +1,10 @@
 <!--pages/home/shortcuts/ISSS/isss.wxml-->
-<text>pages/home/shortcuts/ISSS/isss.wxml</text>
+<view class='title'>
+  <text>ISSS</text>
+</view>
+<view bindtap="copyText" data-text="{{isss}}" class='website'>
+  (点击复制网址）
+</view>
+<view class='content'>
+  <text></text>
+</view>

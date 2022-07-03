@@ -5,7 +5,24 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    Registration: "https://app.testudo.umd.edu/main/dropAdd",
+    CourseOff: "https://umd.courseoff.com/",
+    Venus: "https://venus.umd.edu",
+  },
+  copyText: function(e){
+    console.log(e)
+    wx.setClipboardData({
+      data: e.currentTarget.dataset.text,
+      success: function (res) {
+        wx.getClipboardData({
+          success: function (res) {
+            wx.showToast({
+              title: '复制成功',
+            })
+          },
+        })
+      }
+    })
   },
 
   /**

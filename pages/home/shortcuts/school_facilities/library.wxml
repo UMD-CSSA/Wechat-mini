@@ -1,2 +1,10 @@
 <!--pages/home/shortcuts/school_facilities/library.wxml-->
-<text>pages/home/shortcuts/school_facilities/library.wxml</text>
+<view class='title'>
+  <text>图书馆主页</text>
+</view>
+<view bindtap="copyText" data-text="{{library}}" class='website'>
+  (点击复制网址）
+</view>
+<view class='content'>
+  <text></text>
+</view>

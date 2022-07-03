@@ -1,2 +1,10 @@
 <!--pages/home/shortcuts/dining_and_housing/dining_plan.wxml-->
-<text>pages/home/shortcuts/dining_and_housing/dining_plan.wxml</text>
+<view class='title'>
+  <text>Dining Plan</text>
+</view>
+<view bindtap="copyText" data-text="{{dining_plan}}" class='website'>
+  (点击复制网址）
+</view>
+<view class='content'>
+  <text>用于选择就餐计划</text>
+</view>

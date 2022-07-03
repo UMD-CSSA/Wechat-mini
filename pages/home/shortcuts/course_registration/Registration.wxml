@@ -1,2 +1,33 @@
 <!--pages/home/shortcuts/course_registration/Registration.wxml-->
-<text>pages/home/shortcuts/course_registration/Registration.wxml</text>
+<view class='title'>
+  <text>Registration</text>
+</view>
+<view bindtap="copyText" data-text="{{Registration}}" class='website'>
+  (点击复制网址）
+</view>
+<view class='content'>
+  <text>选课网站，建议先进入“Schedule of Classes"页面选好心仪的课程</text>
+</view>
+
+<view class='title'>
+  <text>CourseOff</text>
+</view>
+<view bindtap="copyText" data-text="{{CourseOff}}" class='website'>
+  (点击复制网址）
+</view>
+<view class='content'>
+  <text> 推荐使用该网站构建模拟课程表
+  优点为手动选择，方便选择喜欢的老师和时间</text>
+</view>
+
+<view class='title'>
+  <text>Venus-Schedule Builder</text>
+</view>
+<view bindtap="copyText" data-text="{{Venus}}" class='website'>
+  (点击复制网址）
+</view>
+<view class='content'>
+  <text> 亦或使用官方网站构建课程表
+  优点为可根据所选必修，选修课程构建大量可能的课程表
+  缺点为数量过多不便于抉择，且无法手动微调</text>
+</view>
