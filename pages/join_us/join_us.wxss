@@ -16,7 +16,6 @@ image{
   background-color: #f07c7e;
   margin-left: 10%;
   margin-right: 10%;
-  height: 340px;
   border-radius: 15px;
   position: relative;
 }
