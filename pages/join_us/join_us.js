@@ -32,7 +32,7 @@ Page({
  getUserInfo(e){
   let userInfo = e.detail.userInfo;
   userInfo.openid = store.getItem("openId");
-  app.get(Api, login, {
+  app.get(Api.login, {
     userInfo
   }).then(res => {
     store.setItem('userId', res.userId);

@@ -52,7 +52,7 @@ module.exports = {
         fail:function(e = { code: -1, msg: errMsg, errMsg}){
           let msg = e.errMsg;
           // 测试一下
-          if (msg == "request: fail timeout"){
+          if (msg == "request:fail "){
             msg = '请求超时';
           }
           wx.showToast({
