@@ -3,7 +3,7 @@
   <text>Student Portal(Resident Life)</text>
 </view>
 <view bindtap="copyText" data-text="{{student_portal_rl}}" class='website'>
-  (点击复制网址）
+  http://reslife.umd.edu/
 </view>
 <view class='content'>
   <text></text>

@@ -4,7 +4,7 @@
   <text>Testudo主页</text>
 </view>
 <view bindtap="copyText" data-text="{{Testudo}}" class='website'>
-  (点击复制网址）
+  https://www.testudo.umd.edu
 </view>
 <view class='content'>
   <text>核心功能，包含所有课程与大部分campus service相关信息</text>

@@ -3,7 +3,7 @@
   <text>Enrollment</text>
 </view>
 <view bindtap="copyText" data-text="{{Enrollment}}" class='website'>
-  (点击复制网址）
+  https://app.testudo.umd.edu/#/main/enrollmentCertificationStatus?null
 </view>
 <view class='content'>
   <text></text>

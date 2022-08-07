@@ -3,7 +3,7 @@
   <text>Gym主页</text>
 </view>
 <view bindtap="copyText" data-text="{{gym}}" class='website'>
-  (点击复制网址）
+  https://recwell.umd.edu/
 </view>
 <view class='content'>
   <text></text>

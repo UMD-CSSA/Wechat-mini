@@ -3,7 +3,7 @@
   <text>Student Portal(Health)</text>
 </view>
 <view bindtap="copyText" data-text="{{student_portal_h}}" class='website'>
-  (点击复制网址）
+  https://health.umd.edu/user/login
 </view>
 <view class='content'>
   <text></text>

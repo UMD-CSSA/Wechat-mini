@@ -3,7 +3,7 @@
   <text>Health Center</text>
 </view>
 <view bindtap="copyText" data-text="{{health}}" class='website'>
-  (点击复制网址）
+  https://health.umd.edu/
 </view>
 <view class='content'>
   <text></text>

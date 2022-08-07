@@ -3,7 +3,7 @@
   <text>Terripin Express</text>
 </view>
 <view bindtap="copyText" data-text="{{terripin_express}}" class='website'>
-  (点击复制网址）
+  https://dsonline2.umd.edu/terrapinexpress/
 </view>
 <view class='content'>
   <text></text>

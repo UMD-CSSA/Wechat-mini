@@ -3,7 +3,7 @@
   <text>Degree Audit</text>
 </view>
 <view bindtap="copyText" data-text="{{Degree_Audit}}" class='website'>
-  (点击复制网址）
+  https://uachieve.umd.edu
 </view>
 <view class='content'>
   <text>学位审计网站，可查询自己需要哪些课程才可获得学位</text>

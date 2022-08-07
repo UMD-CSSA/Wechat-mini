@@ -3,7 +3,7 @@
   <text>图书馆主页</text>
 </view>
 <view bindtap="copyText" data-text="{{library}}" class='website'>
-  (点击复制网址）
+  https://www.lib.umd.edu/
 </view>
 <view class='content'>
   <text></text>

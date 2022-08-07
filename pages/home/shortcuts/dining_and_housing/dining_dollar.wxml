@@ -3,7 +3,7 @@
   <text>Dining Dollar</text>
 </view>
 <view bindtap="copyText" data-text="{{dining_dollar}}" class='website'>
-  (点击复制网址）
+  https://dining.umd.edu/services/students/dining-dollars
 </view>
 <view class='content'>
   <text>存在学生证中的余额，在选择dining plan时附带，无法充值/转存，余额在学期结束后归零

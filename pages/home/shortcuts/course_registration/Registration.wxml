@@ -3,7 +3,7 @@
   <text>Registration</text>
 </view>
 <view bindtap="copyText" data-text="{{Registration}}" class='website'>
-  (点击复制网址）
+  https://app.testudo.umd.edu/main/dropAdd
 </view>
 <view class='content'>
   <text>选课网站，建议先进入“Schedule of Classes"页面选好心仪的课程</text>
@@ -13,7 +13,7 @@
   <text>CourseOff</text>
 </view>
 <view bindtap="copyText" data-text="{{CourseOff}}" class='website'>
-  (点击复制网址）
+  https://umd.courseoff.com
 </view>
 <view class='content'>
   <text> 推荐使用该网站构建模拟课程表
@@ -24,7 +24,7 @@
   <text>Venus-Schedule Builder</text>
 </view>
 <view bindtap="copyText" data-text="{{Venus}}" class='website'>
-  (点击复制网址）
+  https://venus.umd.edu
 </view>
 <view class='content'>
   <text> 亦或使用官方网站构建课程表

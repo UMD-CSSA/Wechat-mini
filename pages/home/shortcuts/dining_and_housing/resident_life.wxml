@@ -3,7 +3,7 @@
   <text>Resident Life</text>
 </view>
 <view bindtap="copyText" data-text="{{resident_life}}" class='website'>
-  (点击复制网址）
+  http://reslife.umd.edu
 </view>
 <view class='content'>
   <text>住宿生活相关信息</text>

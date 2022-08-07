@@ -3,7 +3,7 @@
   <text>Insurance Plan</text>
 </view>
 <view bindtap="copyText" data-text="{{insurance}}" class='website'>
-  (点击复制网址）
+  https://health.umd.edu/insurance-billing/SHIP
 </view>
 <view class='content'>
   <text>保险计划（SHIP）</text>

@@ -3,7 +3,7 @@
   <text>ISSS Appointment</text>
 </view>
 <view bindtap="copyText" data-text="{{appointment}}" class='website'>
-  (点击复制网址）
+  https://globalmaryland.umd.edu/offices/international-student-scholar-services/schedule-appointment-isss-advisor
 </view>
 <view class='content'>
   <text></text>

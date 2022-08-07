@@ -3,7 +3,7 @@
   <text>Transcript</text>
 </view>
 <view bindtap="copyText" data-text="{{Transcript}}" class='website'>
-  (点击复制网址）
+  https://registrar.umd.edu/transcripts.html
 </view>
 <view class='content'>
   <text>定制一份官方成绩单</text>

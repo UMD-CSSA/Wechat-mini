@@ -3,7 +3,7 @@
   <text>Coivd related information</text>
 </view>
 <view bindtap="copyText" data-text="{{covid}}" class='website'>
-  (点击复制网址）
+  https://health.umd.edu/home/covid-19-uhc-operations
 </view>
 <view class='content'>
   <text></text>

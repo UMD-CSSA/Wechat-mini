@@ -3,7 +3,7 @@
   <text>ITerp</text>
 </view>
 <view bindtap="copyText" data-text="{{iterp}}" class='website'>
-  (点击复制网址）
+  https://globalmaryland.umd.edu/offices/international-student-scholar-services/logging-iterp
 </view>
 <view class='content'>
   <text></text>

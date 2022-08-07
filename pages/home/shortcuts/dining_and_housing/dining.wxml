@@ -3,7 +3,7 @@
   <text>dining主页</text>
 </view>
 <view bindtap="copyText" data-text="{{dining}}" class='website'>
-  (点击复制网址）
+  https://dining.umd.edu
 </view>
 <view class='content'>
   <text>Maryland Dining</text>

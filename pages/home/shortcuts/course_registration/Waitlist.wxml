@@ -3,7 +3,7 @@
   <text>Waitlist Check-in</text>
 </view>
 <view bindtap="copyText" data-text="{{Waitlist}}" class='website'>
-  (点击复制网址）
+  https://www.testudo.umd.edu/main/waitlistCheckin
 </view>
 <view class='content'>
   <text>当一门课程无空位时，仍然可以选择将自己加入候补列表进行排队，当前窗口用以进行waitlist签到，若在要求日期内没有check-in，会被视为自动放弃</text>

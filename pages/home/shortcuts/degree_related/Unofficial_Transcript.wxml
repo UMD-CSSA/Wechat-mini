@@ -3,7 +3,7 @@
   <text>Unofficial Transcript</text>
 </view>
 <view bindtap="copyText" data-text="{{Unoffcial_Transcript}}" class='website'>
-  (点击复制网址）
+  https://app.testudo.umd.edu/main/uotrans
 </view>
 <view class='content'>
   <text>生成非官方成绩单</text>

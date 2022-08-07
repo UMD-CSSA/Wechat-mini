@@ -3,7 +3,7 @@
   <text>ISSS</text>
 </view>
 <view bindtap="copyText" data-text="{{isss}}" class='website'>
-  (点击复制网址）
+  https://globalmaryland.umd.edu/offices/international-students-scholar-services/about-isss
 </view>
 <view class='content'>
   <text></text>

@@ -3,7 +3,7 @@
   <text>Student Portal(Dining)</text>
 </view>
 <view bindtap="copyText" data-text="{{student_portal_d}}" class='website'>
-  (点击复制网址）
+  https://dining.umd.edu/online-services
 </view>
 <view class='content'>
   <text></text>

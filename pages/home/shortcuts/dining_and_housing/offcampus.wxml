@@ -3,7 +3,7 @@
   <text>Off-Campus住宿</text>
 </view>
 <view bindtap="copyText" data-text="{{off_campus}}" class='website'>
-  (点击复制网址）
+  https://ochdatabase.umd.edu/?gclid=CjwKCAjw2f-VBhAsEiwAO4lNeJy_yAfffTHDRr-4Ajo2WrtkmxVjvbgrbQoDAOKYp5hVUZnMRnSR7xoC894QAvD_BwE&gclsrc=aw.ds
 </view>
 <view class='content'>
   <text>校外住宿</text>
