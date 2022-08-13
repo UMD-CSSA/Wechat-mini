@@ -1,5 +1,6 @@
 const app = getApp()
 let store = require("../../utils/store.js")
+let router = require("../../utils/router.js")
 let Api = app.Api
 
 Page({
@@ -20,7 +21,7 @@ Page({
           app.get(Api.getSession, {
             code: res.code
           }).then(res => {
-            console.log(res)
+            console.log(res);
             store.setItem("openId", res.openid)
           }).catch(err => {
             console.log(err.message)

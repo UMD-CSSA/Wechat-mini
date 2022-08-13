@@ -1,4 +1,4 @@
 module.exports = {
-  getSession: "/api/mp/getSession",
-  login: "/api/mp/login"
+  getSession: "/wechat-mini-program/profile",
+  login: "/wechat-mini-program/login"
 }

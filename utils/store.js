@@ -6,9 +6,9 @@ module.exports = {
     if (module_name){
       let module_name_info = this.getItem(module_name);
       module_name_info[key] = value;
-      wx.setStorageSync('module_name', module_name_info)
+      wx.setStorageSync(module_name, module_name_info)
     } else {
-      wx.setStorageSync('key', value)
+      wx.setStorageSync(key, value)
     }
   },
   // getter

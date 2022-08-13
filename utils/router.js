@@ -35,7 +35,11 @@ module.exports = {
     }
   },
   parse(data){
-    return JSON.stringify(data);
+    let arr = [];
+    for (let key in data){
+      arr.push(key + '=' + data[key]);
+    }
+    return arr.join("&");
   }
 
   
